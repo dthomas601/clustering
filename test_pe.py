@@ -8,7 +8,6 @@ from itertools import repeat
 import re
 from sklearn.feature_extraction.text import HashingVectorizer
 
-
 try:
     import pefile
     import peutils
@@ -33,9 +32,7 @@ def printInfo((path,setSize)):
     print p.getNumSections(pe), "num_sections"
     print p.getEntryPointAddress(pe), "entry_point_address"
     print p.get_filetype_file(path), "file_type"
-
     print p.getSizeOfCode(pe), "code_size"
-
     print "i_dll:",p.getImportedDLLs(pe)
     print "i_functions:",   p.getImportedFunctions(pe)
 
@@ -58,7 +55,7 @@ def printInfo((path,setSize)):
     #for x in range(1,setSize+1):
 
     """
-    return p.fileName(path),p.getByteSets(path,pe,setSize),p.printable_strings(path)
+    return p.fileName(path),p.getByteSets(path,pe,setSize),p.printable_strings(path),p.getOpcodes(pe,path)
 
 #Function to extract strings of size 4 or longer
 def tokenize(text):
@@ -91,8 +88,8 @@ if __name__ == '__main__':
 
     then=time.time()
 
-
-    base_path="/Volumes/malware/samples/Evasive_Sample_Set/samples"
+    #base_path="/Volumes/malware/samples/Evasive_Sample_Set/samples"
+    base_path="Z:\\projects\\idaho-bailiff\\C4\\dataset_evasive_malware\\files\\samples"
 
 
     #sys.stdout = open('output_file2.txt', 'w')
@@ -129,18 +126,20 @@ if __name__ == '__main__':
 
 
     #Create feature vector for character input
-    for fv1 in pool.imap_unordered(vector_func_char,sample_list1,chunksize=20):
-        print fv1[1]
+    split_list = lambda lst, sz: [lst[i:i+sz] for i in range(0, len(sample_list1), 250)]
 
-
+    for s in split_list:
+        for fv1 in pool.imap_unordered(vector_func_char,s):
+            print fv1[1]
+        pool.close()
+        pool.join()
+    print"*********************************"
     #Create feature vector for word input
     for fv2 in pool.imap_unordered(vector_func_word,sample_list2,chunksize=20):
         print fv2[1]
 
-
     #pool.close()
     #pool.join()
-
 
     total_now=time.time()
     print "Total Time", total_now-then

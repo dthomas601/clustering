@@ -5,7 +5,7 @@ import distorm3
 import os
 import string
 import re
-#import magic
+import magic
 
 try:
     import pefile
