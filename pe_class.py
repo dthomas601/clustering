@@ -5,8 +5,7 @@ import distorm3
 import os
 import string
 import re
-import magic
-import numpy as np
+#import magic
 
 try:
     import pefile
@@ -75,7 +74,7 @@ def getMachineType(pe):
 #Use peutil signature database to guess compiler/packer type
 def compiler_or_packer_type(pe):
     if hasattr(pe,'DOS_HEADER'):
-        signature= peutils.SignatureDatabase("C:\\bin\\UserDB.TXT")
+        signature= peutils.SignatureDatabase("/Users/temp/OneDrive/bin/UserDB.TXT")
         check=signature.match_all(pe,ep_only=True)
         #print "Compiler/Packer:",check
 
@@ -91,7 +90,7 @@ def get_filetype_data(data):
         try:
             return magic.from_buffer(data)
         except magic.MagicException:
-            magic_custom = magic.Magic(magic_file='C:\\bin\\share\\misc\\magic')
+            magic_custom = magic.Magic(magic_file='/Users/temp/OneDrive/bin/share/miscmagic')
             return magic_custom.from_buffer(data)
     return None
 
@@ -101,7 +100,7 @@ def get_filetype_file(f):
         try:
             return magic.from_file(file)
         except magic.MagicException:
-            magic_custom = magic.Magic(magic_file='C:\\bin\\share\\misc\\magic')
+            magic_custom = magic.Magic(magic_file='/Users/temp/OneDrive/bin/share/miscmagic')
             return magic_custom.from_file(f)
     return None
 
@@ -441,3 +440,38 @@ def getByteSets(path,pe,setSize):
         return byte_ngram
     else:
         return None
+
+
+def printable_strings(path):
+
+    #process = subprocess.Popen(["strings",path], stdout=subprocess.PIPE, shell=True)
+    #(out,err)=process.communicate()
+
+    strings_output=[]
+
+    for s in strings(path,4):
+        strings_output.append(s)
+    """
+        if s in d:
+            d[s]+=1
+        else:
+            d[s]=1
+
+
+    for s in out:
+        print ""
+        if s in d:
+            d[s]+=1
+        else:
+            d[s]=1
+    """
+    """
+    p_strings = set(string.printable)
+    d =dict()
+    with open(path,'rb') as f:
+        for data in f.read():
+            if data in string.printable:
+                if len(data) > 3:
+                    print data
+    """
+    return strings_output

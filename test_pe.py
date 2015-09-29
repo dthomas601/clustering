@@ -1,17 +1,20 @@
-import pefile
 import pe_class as p
 import os
 import sys
 import time
-import csv
 from multiprocessing import Pool
+import multiprocessing
 from itertools import repeat
-import chardet
-import pandas as pd
-from sklearn.feature_extraction.text import CountVectorizer,HashingVectorizer
-import numpy as np
+import re
+from sklearn.feature_extraction.text import HashingVectorizer
 
 
+try:
+    import pefile
+    import peutils
+except ImportError:
+    print 'pefile not installed, see http://code.google.com/p/pefile/'
+    sys.exit()
 
 
 def printInfo((path,setSize)):
@@ -55,18 +58,31 @@ def printInfo((path,setSize)):
     #for x in range(1,setSize+1):
 
     """
-    return p.fileName(path),p.getByteSets(path,pe,setSize)
+    return p.fileName(path),p.getByteSets(path,pe,setSize),p.printable_strings(path)
+
+#Function to extract strings of size 4 or longer
+def tokenize(text):
+    exp=re.compile('^(.{4,})$')
+    return [tok.strip() for tok in exp.split(text)]
 
 
-
-def vector_func(l):
+#Function that take a string of character input and creates a feature vector.  Appended is the name of the sample
+def vector_func_char(l):
     vectorizer= HashingVectorizer(analyzer='char',input='content',decode_error='ignore',
                                  strip_accents='ascii',ngram_range=(1,1),n_features=262144)
-    #if l:
-    #    l=l[2:-2]
+
     return str(l).split(" ")[0],vectorizer.fit_transform(str(l).replace(str(l).split(" ")[0],""))
     #return vectorizer.fit_transform(l)
 
+
+#Function that take a string of words as input and creates a feature vector.  Appended is the name of the sample
+
+def vector_func_word(l):
+    vectorizer= HashingVectorizer(non_negative=True, stop_words='english' ,input='content',decode_error='ignore',
+                                 strip_accents='ascii',n_features=262144,tokenizer=tokenize)
+
+    return str(l).split(" ")[0],vectorizer.fit_transform(str(l).replace(str(l).split(" ")[0],""))
+    #return vectorizer.fit_transform(l)
 
 
 
@@ -75,57 +91,59 @@ if __name__ == '__main__':
 
     then=time.time()
 
-    base_path="Z:\\projects\\idaho-bailiff\\C4\\dataset_evasive_malware\\files\\samples"
+
+    base_path="/Volumes/malware/samples/Evasive_Sample_Set/samples"
 
 
-    c=1
-    #sys.stdout = open('H:\\Desktop\\output_file.txt', 'w')
+    #sys.stdout = open('output_file2.txt', 'w')
 
+
+    #Grab the path to all samples in directory
     l=[]
     for s in os.listdir(base_path):
         l.append(os.path.join(base_path,s))
 
-    setSize=1
-    sample_name=[]
-    sample_list=[]
-    import multiprocessing
-    pool=Pool(maxtasksperchild=25,processes=multiprocessing.cpu_count()-2)
 
+    setSize=1
+    sample_list1=[]
+    sample_list2=[]
+
+    #Collect features data from malware samples using multiprocessing
+    pool=Pool(maxtasksperchild=25,processes=multiprocessing.cpu_count()-2)
     for results in pool.imap(printInfo,zip(l,repeat(setSize))):
             if results[1]:
-                #print str([" ".join(results[1])])
-                #sample_list.append(results[1])
-                sample_list.append(str(results[0])+" "+ str([" ".join(results[1])]))
-                #sample_list.append(str(results[0])+" "+str([" ".join(results[1])]))
+
+                sample_list1.append(str(results[0])+" "+ str([" ".join(results[1])]))
+                sample_list2.append((str(results[0])+" "+ str([" ".join(results[2])])))
 
 
-    #print len(sample_list)
+
+    #for s in sample_list2:
+    #    print tokenize(str(s).replace(str(s).split(" ")[0],""))
+
+
     processing_now=time.time()
     print "Processing Time:",processing_now-then
-    print "Sample list length",len(sample_list)
+    print "Sample list 1 length",len(sample_list1)
+    print "Sample list 2 length",len(sample_list2)
 
 
-    #for s in sample_list:
-    #    print str(s).replace(str(s).split(" ")[0],"")
+    #Create feature vector for character input
+    for fv1 in pool.imap_unordered(vector_func_char,sample_list1,chunksize=20):
+        print fv1[1]
 
 
-    #data = pd.DataFrame()
-    data=[]
-    for fv in pool.imap_unordered(vector_func,sample_list,chunksize=20):
-        #data.append(fv.toarray())
-        print fv
+    #Create feature vector for word input
+    for fv2 in pool.imap_unordered(vector_func_word,sample_list2,chunksize=20):
+        print fv2[1]
 
-    pool.close()
-    pool.join()
 
-    #for d in data:
-    #    print d
-
+    #pool.close()
+    #pool.join()
 
 
     total_now=time.time()
     print "Total Time", total_now-then
-
 
 
 
