@@ -78,7 +78,7 @@ def tokenize(text):
 #Function that take a string of character input and creates a feature vector.  Appended is the name of the sample
 def vector_func_char(l):
     vectorizer= HashingVectorizer(analyzer='char',input='content',decode_error='ignore',
-                                 strip_accents='ascii',ngram_range=(1,1),n_features=524288)
+                                 strip_accents='ascii',ngram_range=(2,2),n_features=524288)
 
     return str(l).split(" ")[0],vectorizer.fit_transform(str(l).replace(str(l).split(" ")[0],""))
     #return vectorizer.fit_transform(l)

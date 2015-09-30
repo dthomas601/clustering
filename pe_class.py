@@ -7,6 +7,8 @@ import string
 import re
 #import magic
 
+
+
 try:
     import pefile
     import peutils
@@ -263,6 +265,7 @@ def strings(filename, min=4):
             if len(result) >= min:
                 yield result
             result = ""
+
 
 #All section under PE Optional Header
 #? What happens to linker if size of optional header is zero?
