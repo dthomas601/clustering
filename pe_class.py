@@ -5,7 +5,7 @@ import distorm3
 import os
 import string
 import re
-import magic
+#import magic
 
 try:
     import pefile
@@ -217,7 +217,11 @@ def checkIfPacked(pe):
     return None
 
 def checkIfPacked2(pe):
-    return peutils.is_probably_packed(pe)
+    if peutils.is_probably_packed(pe):
+        return 1
+    else:
+        return 0
+
 
 
 #Find all exported functions in sample
@@ -291,9 +295,9 @@ def checkSectionSizeZero(pe):
                 list.append(re.sub('\W', '',str(section.Name)))
 
         if list:
-            return True,list
+            return 1
         else:
-            return False
+            return 0
     else:
         None
 
@@ -306,9 +310,9 @@ def checkRawVsVirtualSection(pe):
             if section.Misc-section.SizeOfRawData > getSectionAlignment(pe):
                 list.append(re.sub('\W', '',str(section.Name)))
         if list:
-            return True,list
+            return 1
         else:
-            return False
+            return 0
     else:
         None
 
@@ -324,9 +328,9 @@ def checkEntropy(pe):
                 list.append(re.sub('\W', '',str(section.Name)))
 
         if list:
-            return True,list
+            return 1
         else:
-            return False
+            return 0
     else:
         None
 
@@ -359,7 +363,7 @@ def numStrangeSectionName(pe):
                 list.append(re.sub('\W', '',str(section.Name)))
                 c+=1
         if list:
-            return c,list
+            return c
         else:
             return c
     else:

@@ -15,6 +15,14 @@ except ImportError:
     print 'pefile not installed, see http://code.google.com/p/pefile/'
     sys.exit()
 
+def chunk_list(lst):
+    split=[]
+    sz=250
+    for i in range(0,len(lst),sz):
+        split.append(lst[i:i+sz])
+
+    return split
+
 
 def printInfo((path,setSize)):
 
@@ -55,7 +63,11 @@ def printInfo((path,setSize)):
     #for x in range(1,setSize+1):
 
     """
+    print [p.fileSize(path),p.getNumSections(pe),p.getSizeOfCode(pe),p.numStrangeSectionName(pe),p.checkIfPacked2(pe),p.get_num_rsrc(pe),p.checkSectionSizeZero(pe),p.checkRawVsVirtualSection(pe),p.checkEntropy(pe)]
+
     return p.fileName(path),p.getByteSets(path,pe,setSize),p.printable_strings(path),p.getOpcodes(pe,path)
+
+
 
 #Function to extract strings of size 4 or longer
 def tokenize(text):
@@ -66,7 +78,7 @@ def tokenize(text):
 #Function that take a string of character input and creates a feature vector.  Appended is the name of the sample
 def vector_func_char(l):
     vectorizer= HashingVectorizer(analyzer='char',input='content',decode_error='ignore',
-                                 strip_accents='ascii',ngram_range=(1,1),n_features=262144)
+                                 strip_accents='ascii',ngram_range=(1,1),n_features=524288)
 
     return str(l).split(" ")[0],vectorizer.fit_transform(str(l).replace(str(l).split(" ")[0],""))
     #return vectorizer.fit_transform(l)
@@ -88,8 +100,10 @@ if __name__ == '__main__':
 
     then=time.time()
 
-    #base_path="/Volumes/malware/samples/Evasive_Sample_Set/samples"
-    base_path="Z:\\projects\\idaho-bailiff\\C4\\dataset_evasive_malware\\files\\samples"
+    base_path="/Volumes/malware/samples/Evasive_Sample_Set/samples"
+    #base_path="Z:\\projects\\idaho-bailiff\\C4\\dataset_evasive_malware\\files\\samples"
+    #base_path="/work/dmt101/samples"
+
 
 
     #sys.stdout = open('output_file2.txt', 'w')
@@ -105,19 +119,25 @@ if __name__ == '__main__':
     sample_list1=[]
     sample_list2=[]
 
+
+
     #Collect features data from malware samples using multiprocessing
     pool=Pool(maxtasksperchild=25,processes=multiprocessing.cpu_count()-2)
     for results in pool.imap(printInfo,zip(l,repeat(setSize))):
+            print
+            """
             if results[1]:
 
                 sample_list1.append(str(results[0])+" "+ str([" ".join(results[1])]))
                 sample_list2.append((str(results[0])+" "+ str([" ".join(results[2])])))
-
+            """
 
 
     #for s in sample_list2:
     #    print tokenize(str(s).replace(str(s).split(" ")[0],""))
 
+
+    """
 
     processing_now=time.time()
     print "Processing Time:",processing_now-then
@@ -126,17 +146,20 @@ if __name__ == '__main__':
 
 
     #Create feature vector for character input
-    split_list = lambda lst, sz: [lst[i:i+sz] for i in range(0, len(sample_list1), 250)]
 
-    for s in split_list:
+    sample_split = [sample_list1[i:i+250] for i in range(0,len(sample_list1),250)]
+
+    #for s in sample_split:
+    #    print len(s)
+
+    for s in sample_split:
         for fv1 in pool.imap_unordered(vector_func_char,s):
-            print fv1[1]
-        pool.close()
-        pool.join()
+            print fv1
+
     print"*********************************"
     #Create feature vector for word input
     for fv2 in pool.imap_unordered(vector_func_word,sample_list2,chunksize=20):
-        print fv2[1]
+        print fv2
 
     #pool.close()
     #pool.join()
@@ -145,5 +168,5 @@ if __name__ == '__main__':
     print "Total Time", total_now-then
 
 
-
+    """
 
