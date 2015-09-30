@@ -6,11 +6,9 @@ import re
 sys.path.append("C:\\DeMarcus\\cuckoo_parser\\Experimental\\MalwareFeatures")
 import pe_class as p
 import multiprocessing
-
-import string
 from multiprocessing import Pool
 from sklearn.feature_extraction.text import HashingVectorizer
-
+from scipy import sparse
 
 
 def parse_file(file):
@@ -31,14 +29,7 @@ def tokenize(text):
 
 def getVector(sample_path):
 
-    bytes=parse_file(sample_path)
-    #print bytes
-    vectorizer= HashingVectorizer(analyzer='char',input='content',decode_error='ignore',
-                                 strip_accents='ascii',ngram_range=(1,2),n_features=50)#n_features=1048576)#,tokenizer=tokenize)
-
-
-
-    return p.fileName(sample_path),vectorizer.fit_transform(bytes).toarray()
+    return parse_file(sample_path)
 
 
 if __name__ == '__main__':
@@ -46,23 +37,24 @@ if __name__ == '__main__':
     #sys.stdout = open('output_file2.txt', 'w')
 
     #base_path="/Volumes/malware/samples/Kaggle"
-    base_path="Z:\\projects\\idaho-bailiff\\C4\\Labeled_Malware_Family_Dataset\\train"
-    #base_path="/Volumes/DISK_IMG/samples/Kaggle/train"
+    #base_path="Z:\\projects\\idaho-bailiff\\C4\\Labeled_Malware_Family_Dataset\\train"
+    base_path="/Volumes/DISK_IMG/samples/Kaggle/train"
 
 
     sample_list=[]
-    bytes_list=[]
-
-
 
     for s in os.listdir(base_path):
         if '.bytes' in s:
             sample_list.append(os.path.join(base_path,s))
 
-
-
+    blist=[]
     pool=Pool(maxtasksperchild=25,processes=multiprocessing.cpu_count()-2)
     for results in pool.imap(getVector,sample_list):
-        print results
+        #matrix=sparse.hstack((matrix,results),format='csr')
+        #print matrix.shape
+        blist.append(results)
 
+    vectorizer= HashingVectorizer(analyzer=str.split,input='content',decode_error='ignore',
+                                 strip_accents='ascii',ngram_range=(1,2),n_features=1048576)#,tokenizer=tokenize)
 
+    print vectorizer.fit_transform(blist).shape
