@@ -29,16 +29,16 @@ def tokenize(text):
 
 def getVector(sample_path):
 
-    print parse_file(sample_path)
+    #print parse_file(sample_path)
     return parse_file(sample_path)
 
 
 if __name__ == '__main__':
 
-    sys.stdout = open('output_file2.txt', 'w')
+    #sys.stdout = open('output_file2.txt', 'w')
 
-    base_path="/Volumes/malware/samples/Kaggle/train"
-    #base_path="Z:\\projects\\idaho-bailiff\\C4\\Labeled_Malware_Family_Dataset\\train"
+    #base_path="/Volumes/malware/samples/Kaggle/train"
+    base_path="Z:\\projects\\idaho-bailiff\\C4\\Labeled_Malware_Family_Dataset\\train"
     #base_path="/Volumes/DISK_IMG/samples/Kaggle/train"
 
 
@@ -58,4 +58,7 @@ if __name__ == '__main__':
     vectorizer= HashingVectorizer(analyzer=str.split,input='content',decode_error='ignore',
                                  strip_accents='ascii',ngram_range=(1,2),n_features=1048576)#,tokenizer=tokenize)
 
-    print vectorizer.fit_transform(blist).shape
+    v=vectorizer.fit_transform(blist)
+
+
+

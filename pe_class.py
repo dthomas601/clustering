@@ -422,7 +422,6 @@ def getOpcodeSets(opCodeList,setSize):
 
 
 def getByteSets(path,pe,setSize):
-
     #Determine the section the RVA is found in
     sec=findSection(pe,pe.OPTIONAL_HEADER.BaseOfCode)
 
@@ -436,8 +435,6 @@ def getByteSets(path,pe,setSize):
         s2=file_offset+setSize
 
         byte_ngram=[]
-        import codecs
-
         with open (path,'rb') as f:
             file = f.read()
             #Find byte n-grams until the end of the section is reached

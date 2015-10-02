@@ -66,13 +66,23 @@ def printInfo((path,setSize)):
     #print [p.fileSize(path),p.getNumSections(pe),p.getSizeOfCode(pe),p.numStrangeSectionName(pe),p.checkIfPacked2(pe),p.get_num_rsrc(pe),p.checkSectionSizeZero(pe),p.checkRawVsVirtualSection(pe),p.checkEntropy(pe)]
 
     #print " ".join(str(p.getByteSets(path,pe,setSize)).split(" "))
-    print " ".join(p.getByteSets(path,pe,setSize))
+    l=p.getByteSets(path,pe,setSize)
+    if l:
+        return " ".join(l)
+
+    #s=""
+    #if l:
+    #    for element in l:
+    #        s+=element
+    #return s
+    #return p.getByteSets(path,pe,setSize)
+
     #print p.getByteSets(path,pe,setSize)
 
     #line+=str(" ".join(l.split(" ")[1:])).replace("\n"," ")
 
 
-    return p.fileName(path),p.getByteSets(path,pe,setSize),p.printable_strings(path),p.getOpcodes(pe,path)
+    #return p.fileName(path),p.getByteSets(path,pe,setSize),p.printable_strings(path),p.getOpcodes(pe,path)
 
 
 
@@ -95,10 +105,10 @@ def vector_func_char(l):
 
 def vector_func_word(l):
     vectorizer= HashingVectorizer(non_negative=True, stop_words='english' ,input='content',decode_error='ignore',
-                                 strip_accents='ascii',n_features=262144,tokenizer=tokenize)
+                                 strip_accents='ascii',n_features=262144)
 
-    return str(l).split(" ")[0],vectorizer.fit_transform(str(l).replace(str(l).split(" ")[0],""))
-    #return vectorizer.fit_transform(l)
+    #return str(l).split(" ")[0],vectorizer.fit_transform(str(l).replace(str(l).split(" ")[0],""))
+    return vectorizer.fit_transform(l).shape
 
 
 
@@ -107,13 +117,12 @@ if __name__ == '__main__':
 
     then=time.time()
 
-    base_path="/Volumes/malware/samples/Evasive_Sample_Set/samples"
-    #base_path="Z:\\projects\\idaho-bailiff\\C4\\dataset_evasive_malware\\files\\samples"
+    #base_path="/Volumes/malware/samples/Evasive_Sample_Set/samples"
+    base_path="Z:\\projects\\idaho-bailiff\\C4\\dataset_evasive_malware\\files\\samples"
     #base_path="/work/dmt101/samples"
 
 
-
-    sys.stdout = open('output_file.txt', 'w')
+    sys.stdout = open('output_file3.txt', 'w')
 
 
     #Grab the path to all samples in directory
@@ -131,13 +140,20 @@ if __name__ == '__main__':
     #Collect features data from malware samples using multiprocessing
     pool=Pool(maxtasksperchild=25,processes=multiprocessing.cpu_count()-2)
     for results in pool.imap(printInfo,zip(l,repeat(setSize))):
+        if results:
+            #print results
+            sample_list2.append(results)
 
+
+    #print len(sample_list2)
+    print vector_func_word(sample_list2)
+    """
             if results[1]:
 
                 sample_list1.append(str(results[0])+" "+ str([" ".join(results[1])]))
                 sample_list2.append((str(results[0])+" "+ str([" ".join(results[2])])))
 
-
+    """
 
     #for s in sample_list2:
     #    print tokenize(str(s).replace(str(s).split(" ")[0],""))
