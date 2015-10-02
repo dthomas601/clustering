@@ -63,7 +63,14 @@ def printInfo((path,setSize)):
     #for x in range(1,setSize+1):
 
     """
-    print [p.fileSize(path),p.getNumSections(pe),p.getSizeOfCode(pe),p.numStrangeSectionName(pe),p.checkIfPacked2(pe),p.get_num_rsrc(pe),p.checkSectionSizeZero(pe),p.checkRawVsVirtualSection(pe),p.checkEntropy(pe)]
+    #print [p.fileSize(path),p.getNumSections(pe),p.getSizeOfCode(pe),p.numStrangeSectionName(pe),p.checkIfPacked2(pe),p.get_num_rsrc(pe),p.checkSectionSizeZero(pe),p.checkRawVsVirtualSection(pe),p.checkEntropy(pe)]
+
+    #print " ".join(str(p.getByteSets(path,pe,setSize)).split(" "))
+    print " ".join(p.getByteSets(path,pe,setSize))
+    #print p.getByteSets(path,pe,setSize)
+
+    #line+=str(" ".join(l.split(" ")[1:])).replace("\n"," ")
+
 
     return p.fileName(path),p.getByteSets(path,pe,setSize),p.printable_strings(path),p.getOpcodes(pe,path)
 
@@ -106,7 +113,7 @@ if __name__ == '__main__':
 
 
 
-    #sys.stdout = open('output_file2.txt', 'w')
+    sys.stdout = open('output_file.txt', 'w')
 
 
     #Grab the path to all samples in directory
@@ -124,13 +131,12 @@ if __name__ == '__main__':
     #Collect features data from malware samples using multiprocessing
     pool=Pool(maxtasksperchild=25,processes=multiprocessing.cpu_count()-2)
     for results in pool.imap(printInfo,zip(l,repeat(setSize))):
-            print
-            """
+
             if results[1]:
 
                 sample_list1.append(str(results[0])+" "+ str([" ".join(results[1])]))
                 sample_list2.append((str(results[0])+" "+ str([" ".join(results[2])])))
-            """
+
 
 
     #for s in sample_list2:

@@ -29,16 +29,17 @@ def tokenize(text):
 
 def getVector(sample_path):
 
+    print parse_file(sample_path)
     return parse_file(sample_path)
 
 
 if __name__ == '__main__':
 
-    #sys.stdout = open('output_file2.txt', 'w')
+    sys.stdout = open('output_file2.txt', 'w')
 
-    #base_path="/Volumes/malware/samples/Kaggle"
+    base_path="/Volumes/malware/samples/Kaggle/train"
     #base_path="Z:\\projects\\idaho-bailiff\\C4\\Labeled_Malware_Family_Dataset\\train"
-    base_path="/Volumes/DISK_IMG/samples/Kaggle/train"
+    #base_path="/Volumes/DISK_IMG/samples/Kaggle/train"
 
 
     sample_list=[]
