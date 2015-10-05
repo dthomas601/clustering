@@ -7,7 +7,7 @@ sys.path.append("C:\\DeMarcus\\cuckoo_parser\\Experimental\\MalwareFeatures")
 import pe_class as p
 import multiprocessing
 from multiprocessing import Pool
-from sklearn.feature_extraction.text import HashingVectorizer
+from sklearn.feature_extraction.text import HashingVectorizer,CountVectorizer
 from sklearn.cluster import KMeans, MiniBatchKMeans
 from sklearn import metrics
 from itertools import repeat
@@ -50,16 +50,25 @@ def getVector((sample_path,dic)):
     #print parse_file(sample_path)
     return parse_file(sample_path),dic.get(os.path.basename(sample_path).split(".")[0])
 
+def count_vector_func_word(l):
+    vectorizer= CountVectorizer(input='content',decode_error='ignore',
+                                 strip_accents='ascii',max_features=10000,ngram_range=(1,4))
+
+    #return str(l).split(" ")[0],vectorizer.fit_transform(str(l).replace(str(l).split(" ")[0],""))
+    return vectorizer.fit_transform(l)
+
 
 if __name__ == '__main__':
 
     #sys.stdout = open('output_file2.txt', 'w')
 
-    base_path="/Volumes/malware/samples/Kaggle/train"
+    #base_path="/Volumes/malware/samples/Kaggle/train"
+    base_path = "C:\\DeMarcus\\train"
+
     #base_path="Z:\\projects\\idaho-bailiff\\C4\\Labeled_Malware_Family_Dataset\\train"
     #base_path="/Volumes/DISK_IMG/samples/Kaggle/train"
-    #label_path="Z:\\projects\\idaho-bailiff\\C4\\Labeled_Malware_Family_Dataset\\trainLabels.csv"
-    label_path="/Volumes/malware/samples/Kaggle/trainLabels.csv"
+    label_path="Z:\\projects\\idaho-bailiff\\C4\\Labeled_Malware_Family_Dataset\\trainLabels3.csv"
+    #label_path="/Volumes/malware/samples/Kaggle/trainLabels.csv"
 
 
 
@@ -88,7 +97,8 @@ if __name__ == '__main__':
     vectorizer= HashingVectorizer(analyzer=str.split,input='content',decode_error='ignore',
                                  strip_accents='ascii',ngram_range=(1,2),n_features=1048576)#,tokenizer=tokenize)
 
-    X=vectorizer.fit_transform(blist)
+    #X=vectorizer.fit_transform(blist)
+    X=count_vector_func_word(blist)
     print len(labels)
     print len(unique)
     print label_listing

@@ -118,8 +118,8 @@ if __name__ == '__main__':
 
     then=time.time()
 
-    base_path="/Volumes/malware/samples/Evasive_Sample_Set/samples"
-    #base_path="Z:\\projects\\idaho-bailiff\\C4\\dataset_evasive_malware\\files\\samples"
+    #base_path="/Volumes/malware/samples/Evasive_Sample_Set/samples"
+    base_path="Z:\\projects\\idaho-bailiff\\C4\\dataset_evasive_malware\\files\\samples"
     #base_path="/work/dmt101/samples"
 
 
@@ -148,6 +148,7 @@ if __name__ == '__main__':
 
 
     #print len(sample_list2)
+    print sample_list2
     print vector_func_word(sample_list2)
     """
             if results[1]:
