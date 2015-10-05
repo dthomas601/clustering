@@ -77,6 +77,7 @@ def printInfo((path,setSize)):
     #return s
     #return p.getByteSets(path,pe,setSize)
 
+
     #print p.getByteSets(path,pe,setSize)
 
     #line+=str(" ".join(l.split(" ")[1:])).replace("\n"," ")
@@ -117,12 +118,13 @@ if __name__ == '__main__':
 
     then=time.time()
 
-    #base_path="/Volumes/malware/samples/Evasive_Sample_Set/samples"
-    base_path="Z:\\projects\\idaho-bailiff\\C4\\dataset_evasive_malware\\files\\samples"
+    base_path="/Volumes/malware/samples/Evasive_Sample_Set/samples"
+    #base_path="Z:\\projects\\idaho-bailiff\\C4\\dataset_evasive_malware\\files\\samples"
     #base_path="/work/dmt101/samples"
 
 
-    sys.stdout = open('output_file3.txt', 'w')
+    #sys.stdout = open('output_file3.txt', 'w')
+
 
 
     #Grab the path to all samples in directory
@@ -150,8 +152,9 @@ if __name__ == '__main__':
     """
             if results[1]:
 
-                sample_list1.append(str(results[0])+" "+ str([" ".join(results[1])]))
-                sample_list2.append((str(results[0])+" "+ str([" ".join(results[2])])))
+
+            #    sample_list1.append(str(results[0])+" "+ str([" ".join(results[1])]))
+            #    sample_list2.append((str(results[0])+" "+ str([" ".join(results[2])])))
 
     """
 

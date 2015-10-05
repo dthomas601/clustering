@@ -8,8 +8,11 @@ import pe_class as p
 import multiprocessing
 from multiprocessing import Pool
 from sklearn.feature_extraction.text import HashingVectorizer
+from sklearn.cluster import KMeans, MiniBatchKMeans
+from sklearn import metrics
 from itertools import repeat
 import csv
+import time
 
 
 
@@ -52,10 +55,12 @@ if __name__ == '__main__':
 
     #sys.stdout = open('output_file2.txt', 'w')
 
-    #base_path="/Volumes/malware/samples/Kaggle/train"
-    base_path="Z:\\projects\\idaho-bailiff\\C4\\Labeled_Malware_Family_Dataset\\train"
-    label_path="Z:\\projects\\idaho-bailiff\\C4\\Labeled_Malware_Family_Dataset\\trainLabels.csv"
+    base_path="/Volumes/malware/samples/Kaggle/train"
+    #base_path="Z:\\projects\\idaho-bailiff\\C4\\Labeled_Malware_Family_Dataset\\train"
     #base_path="/Volumes/DISK_IMG/samples/Kaggle/train"
+    #label_path="Z:\\projects\\idaho-bailiff\\C4\\Labeled_Malware_Family_Dataset\\trainLabels.csv"
+    label_path="/Volumes/malware/samples/Kaggle/trainLabels.csv"
+
 
 
     labels,unique=read_csv(label_path)
@@ -83,10 +88,22 @@ if __name__ == '__main__':
     vectorizer= HashingVectorizer(analyzer=str.split,input='content',decode_error='ignore',
                                  strip_accents='ascii',ngram_range=(1,2),n_features=1048576)#,tokenizer=tokenize)
 
-    v=vectorizer.fit_transform(blist)
-    print labels
+    X=vectorizer.fit_transform(blist)
+    print len(labels)
     print len(unique)
     print label_listing
+
+
+    km = KMeans(n_clusters=len(unique), init='k-means++', max_iter=100, n_init=1,
+                verbose=1)
+
+    print("Clustering sparse data with %s" % km)
+    start = time.time()
+    print X.shape
+    km.fit(X)
+    print("done in %0.3fs" % (time.time() - start))
+
+    print("Homogeneity: %0.3f" % metrics.homogeneity_score(label_listing, km.labels_))
 
 
 
