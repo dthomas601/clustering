@@ -1,0 +1,3191 @@
+threatexpert
+emsisoft
+rising
+pctools
+norman
+k7computing
+ikarus
+hacksoft
+gdata
+fortinet
+ewido
+clamav
+comodo
+quickheal
+avira
+avast
+esafe
+ahnlab
+centralcommand
+drweb
+grisoft
+nod32
+f-prot
+jotti
+computerassociates
+networkassociates
+etrust
+panda
+sophos
+trendmicro
+defender
+rootkit
+spyware
+Kaspersky
+BitDefender
+Dr.Web
+Kaspersky Antivirus
+Nod32 Antivirus 2.x
+Ewido Security Suite
+McAfee VirusScan
+Panda Antivirus/Firewall
+Symantec/Norton
+PC-cillin Antivirus
+F-Secure
+Kingsoft ShaDu
+NOD32 Antivirus
+Rising Antivirus
+Jiangmin Antivirus
+360 ShaDu
+360 Safe
+McAfee AV
+Bitdefender AV
+Norton Symantec AV
+F-Secure AV
+AhnLab V3 Internet Security 8
+Avast AntiVirus
+Avira Antivirus
+Eset Nod32 Scanner
+F-Secure Gatekeeper Handler Starter
+F-Secure Recognizer
+F-Secure HIPS
+F-Secure Gatekeeper
+F-Secure Filter
+WinDefend
+OutpostFirewall
+McAfee Framework Service
+Panda Antivirus
+ZoneAlarm Client
+Zone Labs Client
+SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Kingsoft Antivirus
+SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Kingsoft Antivirus
+SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\360SD
+SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\360SD
+SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Kingsoft PC Doctor
+SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Kingsoft PC Doctor
+SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\360 Internet Security
+SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\360 Internet Security
+SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Kingsoft Internet Security 9
+SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Kingsoft Internet Security 9
+SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Kingsoft Internet Security U SP1
+SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Kingsoft Internet Security U SP1
+SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{D1ABBC6D-4C7B-4D6B-9B50-F79399DD3652}
+SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{D1ABBC6D-4C7B-4D6B-9B50-F79399DD3652}
+SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{AC54C7CC-3868-4942-BD2E-1BCA2519C881}
+SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{AC54C7CC-3868-4942-BD2E-1BCA2519C881}
+[3-9]{1}[0-9]{1219}[D=\u0061][0-9]{1030}
+((b|B)[0-9]{1319}\^[A-Za-z\s]{030}\/[A-Za-z\s]{030}\^(0[7-9]|1[0-5])((0[1-9])|(1[0-2]))[0-9\s]{350}[0-9]{1})
+([0-9]{1516}[D=](0[7-9]|1[0-5])((0[1-9])|(1[0-2]))[0-9]{830})
+[0-9]{1516}\^[a-zA-Z0-9=*>
+[0-9]{1516}=[0-9]{532}.{120}
+([0-9]{1319}[=D][0-9]{550})\?
+([0-9]{1319}[\^][A-Za-z\s]{030}[\/][[A-Za-z\s]{030}[\^]([0-9\s]{170})\?)
+("^(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=|[A-Za-z0-9+/]{4})$")
+^http[s]?://([^\/:\s]+)(:[^\/\s]+)?(\/?[^\s]*)$
+{[!11!]}{[!4!]}
+{[!12!]}{[!10!]}http://%s:%d{[!4!]}
+{[!13!]}{[!4!]}
+{[!14!]}{[!4!]}
+{[!15!]}{[!4!]}
+{[!16!]}{[!20!]}{[!26!]}%s
+{[!16!]}{[!46!]}%s (%d)
+{[!17!]}{[!18!]}
+{[!17!]}{[!19!]}
+{[!2!]}{[!20!]}{[!21!]}%s
+{[!22!]}%s{[!5!]}
+{[!22!]}{[!18!]}{[!33!]}{[!4!]}{[!34!]}= %d {[!35!]}= 0x%x.{[!36!]}
+{[!22!]}{[!5!]}%s -> %s [%d]{[!35!]}= 0x%x (== 0x%x)
+{[!23!]}{[!22!]} {[!24!]}{[!4!]}%d{[!25!]}
+{[!27!]}{[!30!]}{[!4!]}%s.{[!2!]}
+{[!28!]}%d.%d {[!29!]}%d.%d.{[!1!]}
+{[!29!]}{[!1!]}
+{[!29!]}{[!32!]}%s
+{[!3!]}%s{[!4!]}
+{[!30!]}{[!31!]}{[!4!]}
+{[!37!]}{[!35!]}{[!4!]}{[!38!]}0x%x{[!39!]}0x%x.
+{[!37!]}{[!35!]}{[!4!]}{[!38!]}0x%x{[!39!]}0x%x.{[!36!]}
+{[!4!]}{[!10!]}{[!44!]}{[!43!]}{[!21!]}
+{[!4!]}{[!45!]}{[!21!]}
+{[!40!]}{[!4!]}{[!36!]}
+{[!41!]}{[!4!]}{[!42!]}= 0x%x {[!34!]}= 0x%x.{[!36!]}
+{[!43!]}{[!4!]}
+{[!46!]}%d{[!1!]}
+((b|B)[0-9]{13,19}\^[A-Za-z\s]{0,30}\/[A-Za-z\s]{0,30}\^(1[1-9])((0[1-9])|(1[0-2]))[0-9\s]{3,50}[0-9]{1})
+([3-9]{1}[0-9]{14,15}[D=](1[1-9])((0[1-9])|(1[0-2]))[0-9]{8,30})
+SeAssignPrimaryTokenPrivilege
+SeAuditPrivilege
+SeBackupPrivilege
+SeChangeNotifyPrivilege
+SeCreateGlobalPrivilege
+SeCreatePagefilePrivilege
+SeCreatePermanentPrivilege
+SeCreateSymbolicLinkPrivilege
+SeCreateTokenPrivilege
+SeDebugPrivilege
+SeEnableDelegationPrivilege
+SeImpersonatePrivilege
+SeIncreaseBasePriorityPrivilege
+SeIncreaseQuotaPrivilege
+SeIncreaseWorkingSetPrivilege
+SeLoadDriverPrivilege
+SeLockMemoryPrivilege
+SeMachineAccountPrivilege
+SeManageVolumePrivilege
+SeProfileSingleProcessPrivilege
+SeRelabelPrivilege
+SeRemoteShutdownPrivilege
+SeRestorePrivilege
+SeSecurityPrivilege
+SeShutdownPrivilege
+SeSyncAgentPrivilege
+SeSystemEnvironmentPrivilege
+SeSystemProfilePrivilege
+SeSystemtimePrivilege
+SeTakeOwnershipPrivilege
+SeTcbPrivilege
+SeTimeZonePrivilege
+SeTrustedCredManAccessPrivilege
+SeUndockPrivilege
+SeUnsolicitedInputPrivilege
+2.16.840.1.113730.4.1
+1.3.6.1.4.1.311.10.3.3
+1.3.6.1.5.5.7.3.2
+1.3.6.1.5.5.7.3.1
+1.2.840.113549.1.1.11
+1.2.840.113549.1.1.2
+1.2.840.113549.1.1.4
+1.2.840.113549.1.1.5
+1.2.840.113549.1.9.6
+1.2.840.113549.2.5
+1.2.840.113549.1.9.5
+1.2.840.113556.1.4.1221
+1.2.840.113556.1.4.1222
+1.2.840.113556.1.4.1362
+1.2.840.113556.1.4.1413
+1.2.840.113556.1.4.521
+1.2.840.113556.1.4.616
+1.2.840.113556.1.4.801
+1.2.840.113556.1.4.805
+1.2.840.113556.1.4.903
+1.2.840.113556.1.4.904
+1.2.840.113556.1.4.905
+1.2.840.113556.1.4.906
+1.2.840.113556.1.4.907
+1.3.14.3.2.26
+1.3.14.3.2.29
+1.3.14.3.2.3
+1.3.6.1.4.1.311.2.1.12
+1.3.6.1.4.1.1466.115.121.1.10
+1.3.6.1.4.1.1466.115.121.1.11
+1.3.6.1.4.1.1466.115.121.1.12
+1.3.6.1.4.1.1466.115.121.1.13
+1.3.6.1.4.1.1466.115.121.1.14
+1.3.6.1.4.1.1466.115.121.1.15
+1.3.6.1.4.1.1466.115.121.1.19
+1.3.6.1.4.1.1466.115.121.1.2
+1.3.6.1.4.1.1466.115.121.1.21
+1.3.6.1.4.1.1466.115.121.1.22
+1.3.6.1.4.1.1466.115.121.1.23
+1.3.6.1.4.1.1466.115.121.1.24
+1.3.6.1.4.1.1466.115.121.1.25
+1.3.6.1.4.1.1466.115.121.1.26
+1.3.6.1.4.1.1466.115.121.1.27
+1.3.6.1.4.1.1466.115.121.1.28
+1.3.6.1.4.1.1466.115.121.1.3
+1.3.6.1.4.1.1466.115.121.1.32
+1.3.6.1.4.1.1466.115.121.1.33
+1.3.6.1.4.1.1466.115.121.1.34
+1.3.6.1.4.1.1466.115.121.1.36
+1.3.6.1.4.1.1466.115.121.1.37
+1.3.6.1.4.1.1466.115.121.1.38
+1.3.6.1.4.1.1466.115.121.1.39
+1.3.6.1.4.1.1466.115.121.1.4
+1.3.6.1.4.1.1466.115.121.1.40
+1.3.6.1.4.1.1466.115.121.1.41
+1.3.6.1.4.1.1466.115.121.1.43
+1.3.6.1.4.1.1466.115.121.1.44
+1.3.6.1.4.1.1466.115.121.1.5
+1.3.6.1.4.1.1466.115.121.1.50
+1.3.6.1.4.1.1466.115.121.1.51
+1.3.6.1.4.1.1466.115.121.1.52
+1.3.6.1.4.1.1466.115.121.1.53
+1.3.6.1.4.1.1466.115.121.1.6
+1.3.6.1.4.1.1466.115.121.1.7
+1.3.6.1.4.1.1466.115.121.1.8
+1.3.6.1.4.1.1466.115.121.1.9
+1.3.6.1.4.1.311.10.3.6
+1.3.6.1.4.1.311.88.2.1
+1.3.6.1.4.1.311.88.2.2
+1.3.6.1.5.5.7.3.3
+Mozilla/1.22
+Mozilla/3.0
+Mozilla/3.1
+Mozilla/3.6
+Mozilla/4.0
+Mozilla/4.08
+Mozilla/5.0
+Opera/8.90
+Opera/9.00
+Opera/9.25
+Opera/9.33
+Opera 9.4
+Opera/9.80
+3fr
+386
+accdb
+acf
+ade
+adn
+adp
+ani
+arc
+arcs
+apk
+arch00
+arw
+asset
+arj
+asf
+asp
+asx
+avi
+atf
+app
+aspx
+admin
+b64
+bc7
+bc6
+bay
+big
+bik
+bkf
+bkp
+blob
+bsa
+bat
+bak
+bhx
+bin
+bmp
+binPK
+bar
+bas
+bsd
+backup
+cx
+cc
+cas
+cdr
+cer
+cfr
+cr2
+crt
+crw
+css
+csv
+c
+cab
+cpio
+cap
+cbl
+cbm
+cert
+cbo
+css
+cache
+cfg
+cfm
+cpp
+cxx
+cer
+ceo
+ce0
+chm
+cgi
+classPK
+cmd
+cnt
+com
+cs
+cpl
+crl
+ctl
+cur
+class
+cbtl
+dat
+dbg
+dsm
+dun
+dk
+dll
+de
+docx
+dotm
+docm
+drv
+doc
+docc
+docpk
+dot
+d3dbsp
+das
+dazip
+db0
+dbfv
+dcr
+dif
+der
+dex
+desc
+dmp
+dng
+dwg
+dxg
+dba
+dbf
+dsp
+dsw
+dtd
+ecc
+edt
+epk
+eps
+erf
+esm
+en
+exd
+exe
+ex_
+_exe
+email
+emf
+eot
+eddx
+edoc
+emlx
+epub
+exePK
+fini
+flv
+forge
+fos
+fpk
+fsh
+fpl
+flg
+far
+fav
+ftp
+gdb
+gho
+gzip
+gz
+gif
+gadget
+gcode
+hlp
+hpj
+hta
+hhp
+hkdb
+hkx
+hplg
+hvpl
+h
+hpp
+hxx
+htm
+html
+htt
+http
+hqx
+ht
+htapk
+ibank
+icxs
+indd
+itdb
+itl
+itm
+iwd
+iwi
+ini
+inl
+iniPK
+inc
+ico
+idc
+info
+inf
+ins
+iso
+isp
+it
+its
+idml
+indd
+jar
+jav
+java
+jcr
+jpeg
+jpegPK
+js
+jsp
+jpe
+jpg
+jse
+jfif
+jspa
+jspx
+kdb
+kdc
+key
+layout
+lbf
+ldf
+litemod
+lrf
+ltx
+lvl
+lzh
+lnk
+lsf
+lsx
+log
+lzma
+md
+mad
+maf
+maq
+mar
+mas
+mat
+mav
+maw
+mam
+mag
+m3u
+m4a
+map
+mcr
+mcgame
+mcmeta
+msi
+msp
+mst
+msc
+mda
+mde
+mdz
+mht
+mdb
+mdn
+mdt
+mdbackup
+manifest
+mddata
+mdf
+mef
+mp4
+mid
+mov
+msg
+msh
+midi
+mim
+mmf
+menu
+mlx
+mpqge
+mrwref
+mp3
+mpg
+mpeg
+mp3PK
+mbox
+mdbackup
+mddata
+mdinfo
+net
+nch
+nrg
+nls
+ncb
+ncf
+nrw
+ntl
+nws
+note
+oca
+ocx
+oft
+oss
+olb
+org
+osd
+odb
+odc
+odm
+odp
+ods
+odt
+orf
+ovl
+opt
+oxps
+pas
+pct
+pdc
+pkxm
+pcap
+pps
+pdb
+php
+phtml
+p12
+p7b
+pict
+p7c
+pak
+pdd
+pdf
+pic
+pyd
+pef
+pem
+pfx
+pkpass
+png
+pol
+pot
+plg
+ppa
+ppt
+prf
+pptm
+pptx
+psd
+psk
+pf
+py
+pypk
+pst
+pwl
+ptx
+pif
+pl
+pls
+pax
+pad
+plist
+phtm
+php3
+php4
+php5
+phps
+phpx
+phpxx
+ppdf
+ppsm
+ppsx
+plist_bak
+qc
+qdf
+qic
+qtl
+qtif
+ro
+rodata
+rar
+rat
+rsrc
+reg
+rels
+rtf
+r3d
+raf
+rar
+raw
+re4
+rgss3a
+rim
+rofl
+rsrc
+rtf
+rw2
+rwl
+rdp
+rdf
+reg
+rjs
+rm
+rpt
+relspk
+rsapk
+rtfpk
+sdb
+scf
+scp
+sfx
+sfpk
+sql
+scr
+sct
+shb
+so
+sqlite
+shs
+sit
+slk
+smi
+smil
+stl
+stm
+spl
+sys
+swf
+sav
+sc2save
+sid
+sidd
+sidn
+sie
+sis
+slm
+snx
+sr2
+srfv
+srw
+sum
+svg
+syncdb
+srf
+sys
+t13
+tet
+tar
+tz
+taz
+tgz
+tif
+tiff
+tga
+tmp
+temp
+txt
+tlb
+txt3
+text
+t12
+t13v
+tax
+tor
+txt
+unity3d
+upk
+url
+ult
+vb
+vbe
+vbs
+vbp
+vdf
+vfs0
+vpk
+vaf
+vpp_pcv
+vtf
+vcf
+vbspk
+vxd
+vhdx
+vhdx
+vmdk
+vfs4
+vpp_pc
+wab
+wap
+wbk
+wiz
+wjf
+ws
+w3x
+wb2
+wma
+wmf
+wmo
+wmv
+wotreplay
+wpd
+wps
+wsc
+wsf
+wsh
+webm
+x3f
+xaml
+xla
+xlb
+xlsm
+xlsm
+xlsx
+xsd
+xls
+xsl
+xlt
+xlv
+xml
+xmlPK
+xmp
+xll
+xlsm
+xlsx
+xlc
+xld
+xlk
+xlw
+xxx
+xfp
+xsd
+xbtl
+z
+zip
+zipx
+ztmp
+(A;;0xb;;;AC)
+(A;;0x3;;;AC)
+D:(D;OICI;GA;;;BG)(D;OICI;GA;;;AN)(A;OICI;GA;;;AU)(A;OICI;GA;;;BA)
+D:(A;OICI;GA;;;WD)S:(ML;CIOI;NRNWNX;;;LW)
+D:(A;OICI;GA;;;WD)
+D:(A;;GA;;;WD)S:(ML;;NRNWNX;;;LW)
+D:(A;;GA;;;WD)
+D:AI(A;;GAFA;;;WD)
+D:AI(A;;RPWPCCDCLCSWRCWDWOGA;;;WD)
+D:P(D;CIOI;GA;;;BG)(D;CIOI;GA;;;LG)(A;;GA;;;WD)
+D:P(D;CIOI;GA;;;DG)(D;CIOI;GA;;;BG)(D;CIOI;GA;;;LG)(A;;GA;;;WD)
+D:P(D;CIOI;GA;;;BG)(D;CIOI;GA;;;LG)(D;;SD;;;WD)(A;;0x1e01ff;;;WD)(A;OICIIO;GA;;;WD)
+D:P(D;CIOI;GA;;;DG)(D;CIOI;GA;;;BG)(D;CIOI;GA;;;LG)(D;;SD;;;WD)(A;;0x1e01ff;;;WD)(A;OICIIO;GA;;;WD)
+D:(A;;LC;;;WD)(A;;CCDCLCSWRPSDRCWDWO;;;SY)(A;;LCSWRPRCGW;;;BA)(A;;LC;;;AC);AC);AC)
+D:(A;;0x100001;;;WD)(A;;0x1f0001;;;SY)(A;;0x1f0001;;;%s)(A;;0x100001;;;AC);AC);AC)
+D:(A;;0x00120001;;;WD)(A;;0x001C0002;;;PS)
+D:(A;;0x00120003;;;WD)
+D:(A;;0x00120001;;;WD)(A;;0x001C0002;;;PS)
+D:(A;;0x00120003;;;WD)
+D:(A;;0x100001;;;WD)(A;;0x1f0001;;;SY)(A;;0x1f0001;;;%s)(A;;0x100001;;;AC);AC);AC)
+D:(A;;GR;;;RC)(A;;GR;;;%s)
+D:(A;;GR;;;RC)(A;;GR;;;%s)(A;;GR;;;%s)
+D:(A;;GRGWGX;;;WD)(A;;GRGWGX;;;RC)(A;;GA;;;BA)(A;;GA;;;OW)(A;;GR;;;AC)(A;;LC;;;AC)
+D:(A;;LC;;;WD)(A;;CCDCLCSWRPSDRCWDWO;;;SY)(A;;CCDCLCSWRPSDRCWDWO;;;%s)(A;;LC;;;AC)
+D:(A;;LC;;;WD)(A;;CCDCLCSWRPSDRCWDWO;;;SY)(A;;LCSWRPRCGW;;;BA)(A;;LC;;;AC);AC);AC)
+D:(A;;0x1f0003;;;BA)(A;;0x100000;;;WD)
+D:(A;;GA;;;WD)(A;;GA;;;AN)
+D:(A;;GA;;;WD)(A;;GA;;;AN)S:(ML;;NW;;;LW)
+D:(A;;GA;;;AU)(A;;GA;;;BA)(A;;GA;;;AN)(A;;GA;;;BG)(A;;GA;;;AC)S:(ML;;NW;;;LW)
+D:(A;;FA;;;SY)(A;;FA;;;LS)(A;;FRFW;;;BA)(A;;FRFW;;;BU)(A;;FRFW;;;AN)S:(ML;;;;;LW)
+D:(D;OICI;FA;;;AN)(A;OICI;FA;;;BG)(A;OICI;FA;;;SY)(A;OICI;FA;;;LS)(A;OICI;FA;;;AU)(A;OICI;FA;;;BA))
+D:(D;OICI;FA;;;AN)(A;OICI;FA;;;BG)(A;OICI;FA;;;SY)(A;OICI;FA;;;LS)(A;OICI;FA;;;AU)(A;OICI;FA;;;BA)
+S:(ML;;NRNWNX;;;LW)
+S:(ML;CIOI;NRNWNX;;;LW)
+S:(ML;CIOI;NRNWNX;;;LW)
+S:(ML;;NW;;;LW)
+S:(ML;;NW;;;S-1-16-0)
+S:(ML;;NW;;;LW)D:(A;;0x12019b;;;WD)
+O:BAG:BAD:(A;;0x7;;;WD)(A;;0x7;;;AN)(A;;0x7;;;%s)(A;;0x7;;;%s)(A;;0x3;;;AC)
+O:SYG:SYD:(A;;RC;;;SY)
+O:BAG:BAD:(A;;0x7;;;WD)(A;;0x3;;;AN)(A;;0x7;;;%s)(A;;0x7;;;%s)(A;;0x3;;;AC)C;;;AC)
+O:BAG:BAD:(A;;0x1f;;;BA)(A;;0xb;;;WD)(A;;0x1f;;;%s)(A;;0x1f;;;%s)(A;;0xb;;;AC);AC)
+O:BAG:BAD:(A;;0x1f;;;BA)(A;;0xb;;;IU)(A;;0xb;;;SY)
+O:BAG:BAD:(A;;0x7;;;PS)(A;;0x3;;;SY)(A;;0x7;;;BA)
+  <!-- The KNOWNFOLDERID constants represent GUIDs that identify standard folders registered with the system as Known Folders 
+http://msdn.microsoft.com/en-us/library/dd378457(v=vs.85).aspx  -->
+{008ca0b1-55b4-4c56-b8a8-4de4b299d3be}
+{de61d971-5ebc-4f02-a3a9-6c82895e5c04}
+{724EF170-A42D-4FEF-9F26-B60E846FBA4F}
+{A3918781-E5F2-4890-B3D9-A7E54332328C}
+{1e87508d-89c2-42f0-8a7e-645a0f50ca58}
+{a305ce99-f527-492b-8b1a-7e76fa98d6e4}
+{AB5FB87B-7CE2-4F83-915D-550846C9537B}
+{9E52AB10-F80D-49DF-ACB8-4330F5687855}
+{df7266ac-9274-4867-8d55-3bd661de872d}
+{D0384E7D-BAC3-4797-8F14-CBA229B392B5}
+{C1BAE2D0-10DF-4334-BEDD-7AA20B227A9D}
+{0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}
+{A4115719-D62E-491D-AA7C-E74B8BE3B067}
+{82A5EA35-D9CD-47C5-9629-E15D2F714E6E}
+{B94237E7-57AC-4347-9151-B08C6C32D1F7}
+{0AC0837C-BBF8-452A-850D-79D08E667CA7}
+{4bfefb45-347d-4006-a5be-ac0cb0567192}
+{6F0CD92B-2E97-45D1-88FF-B0D186B8DEDD}
+{56784854-C6CB-462b-8169-88E350ACB882}
+{82A74AEB-AEB4-465C-A014-D097EE346D63}
+{2B0F765D-C0E9-4171-908E-08A611B84FF6}
+{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}
+{5CE4A5E9-E4EB-479D-B89F-130C02886155}
+{FDD39AD0-238F-46AF-ADB4-6C85480369C7}
+{7B0DB17D-9CD2-4A93-9733-46CC89022E7C}
+{374DE290-123F-4565-9164-39C4925E467B}
+{1777F761-68AD-4D8A-87BD-30B759FA33DD}
+{FD228CB7-AE11-4AE3-864C-16F3910AB8FE}
+{CAC52C1A-B53D-4edc-92D7-6B2E8AC19434}
+{054FAE61-4DD8-4787-80B6-090220C4B700}
+{D9DC8A3B-B784-432E-A781-5A1130A75963}
+{52528A6B-B9E3-4ADD-B60D-588C2DBA842D}
+{9B74B6A3-0DFD-4f11-9E78-5F7800F2E772}
+{BCB5256F-79F6-4CEE-B725-DC34E402FD46}
+{352481E8-33BE-4251-BA85-6007CAEDCF9D}
+{4D9F7874-4E0C-4904-967B-40B0D20C3E4B}
+{1B3EA5DC-B587-4786-B4EF-BD1DC332AEAE}
+{bfb9d5e0-c6a9-404c-b2b2-ae6db6af4968}
+{F1B32785-6FBA-4FCF-9D55-7B8E7F157091}
+{A520A1A4-1780-4FF6-BD18-167343C5AF16}
+{2A00375E-224C-49DE-B8D1-440DF7EF3DDC}
+{4BD8D571-6D19-48D3-BE97-422220080E43}
+{2112AB0A-C86A-4FFE-A368-0DE96E47012E}
+{C5ABBF53-E17F-4121-8900-86626FC2C973}
+{D20BEEC4-5CA8-4905-AE3B-BF251EA09B53}
+{2C36C0AA-5812-4b87-BFD0-4CD0DFB19B39}
+{69D2CF90-FC33-4FB7-9A0C-EBB0F0FCB43C}
+{A990AE9F-A03B-4E80-94BC-9912D7504104}
+{33E28130-4E1E-4676-835A-98395C3BC3BB}
+{DE92C1C7-837F-4F69-A3BB-86E631204A23}
+{76FC4E2D-D6AD-4519-A663-37BD56068185}
+{9274BD8D-CFD1-41C3-B35E-B13F55A758F4}
+{5E6C858F-0E22-4760-9AFE-EA3317B67173}
+{62AB5D82-FDC1-4DC3-A9DD-070D1D495D97}
+{905e63b6-c1bf-494e-b29c-65b732d3d21a}
+{6D809377-6AF0-444b-8957-A3773F02200E}
+{7C5A40EF-A0FB-4BFC-874A-C0F2E0B9FA8E}
+{F7F1ED05-9F6D-47A2-AAAE-29D317C6F066}
+{6365D5A7-0F0D-45E5-87F6-0DA56B6A4F7D}
+{DE974D24-D9C6-4D3E-BF91-F4455120B917}
+{A77F5D77-2E2B-44C3-A6A2-ABA601054A51}
+{DFDF76A2-C82A-4D63-906A-5644AC457385}
+{C4AA340D-F20F-4863-AFEF-F87EF2E6BA25}
+{ED4824AF-DCE4-45A8-81E2-FC7965083634}
+{3D644C9B-1FB8-4f30-9B45-F670235F79C0}
+{DEBF2536-E1A8-4c59-B6A2-414586476AEA}
+{48DAF80B-E6CF-4F4E-B800-0E69D84EE384}
+{3214FAB5-9757-4298-BB61-92A9DEAA44FF}
+{B6EBFB86-6907-413C-9AF7-4FC2ABF07CC5}
+{E555AB60-153B-4D17-9F04-A5FE99FC15EC}
+{0482af6c-08f1-4c34-8c90-e17ec98b1e17}
+{2400183A-6185-49FB-A2D8-4A392A602BA3}
+{52a4f021-7b75-48a9-9f6b-4b87a210bc8f}
+{AE50C081-EBD2-438A-8655-8A092E34987A}
+{1A6FDBA2-F42D-4358-A798-B74D745926C5}
+{B7534046-3ECB-4C18-BE4E-64CD4CB7D6AC}
+{8AD10C31-2ADB-4296-A8F7-E4701232C972}
+{C870044B-F49E-4126-A9C3-B52A1FF411E8}
+{3EB685DB-65F9-4CF6-A03A-E3EF65729F3D}
+{AAA8D5A5-F1D6-4259-BAA8-78E7EF60835E}
+{00BCFC5A-ED94-4e48-96A1-3F6217F21990}
+{B250C668-F57D-4EE1-A63C-290EE7D1AA1F}
+{C4900540-2379-4C75-844B-64E6FAF8716B}
+{15CA69B3-30EE-49C1-ACE1-6B5EC372AFB5}
+{859EAD94-2E85-48AD-A71A-0969CB56A6CD}
+{4C5C32FF-BB9D-43b0-B5B4-2D72E54EAAA4}
+{7d1d3a04-debb-4115-95cf-2f29da2920da}
+{b7bede81-df94-4682-a7d8-57a52620b86f}
+{ee32e446-31ca-4aba-814f-a5ebd2fd6d5e}
+{0D4C3DB6-03A3-462F-A0E6-08924C41B5D4}
+{190337d1-b8ca-4121-a639-6d472d16972a}
+{98ec0e18-2098-4d44-8644-66979315a281}
+{7E636BFE-DFA9-4D5E-B456-D7B39851D8A9}
+{8983036C-27C0-404B-8F08-102D10DCFD74}
+{7B396E54-9EC5-4300-BE0A-2482EBAE1A26}
+{A75D362E-50FC-4fb7-AC2C-A8BEAA314493}
+{A52BBA46-E9E1-435f-B3D9-28DAA648C0F6}
+{767E6811-49CB-4273-87C2-20F355E1085B}
+{24D89E24-2F19-4534-9DDE-6A6671FBB8FE}
+{339719B5-8C47-4894-94C2-D8F77ADD44A6}
+{625B53C3-AB48-4EC1-BA1F-A1EF4146FC19}
+{B97D20BB-F46A-4C97-BA10-5E3608430854}
+{43668BF8-C14E-49B2-97C9-747784D784B7}
+{289a9a43-be44-4057-a41b-587a76d7e7f9
+{0F214138-B1D3-4a90-BBA9-27CBC0C5389A}
+{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}
+{D65231B0-B2F1-4857-A4CE-A8E7C6EA7D27}
+{A63293E8-664E-48DB-A079-DF759E0509F7}
+{9E3995AB-1F9C-4F13-B827-48B24B6C7174}
+{0762D272-C50A-4BB0-A382-697DCD729B80}
+{5CD7AEE2-2219-4A67-B85D-6C9CE15660CB}
+{BCBD3057-CA5C-4622-B42D-BC56DB0AE516}
+{f3ce0f7c-4901-4acc-8648-d5d44b04ef8f}
+{A302545D-DEFF-464b-ABE8-61C8648D939B}
+{18989B1D-99B5-455B-841C-AB7C74E4DDFC}
+{491E922F-5643-4AF4-A7EB-4E7A138D8174}
+{F38BF404-1D43-42F2-9305-67DE0B28FC23}
+27C3B8ED-0790-42BD-9AD7-18465E7F7696
+27C3B8ED-0790-42BD-9AD7-18465E7F7696
+27C3B8ED-0790-42BD-9AD7-18465E7F7696
+97808F6C-4769-49D5-9553-18AE9C62ACD7
+B196B286-BAB4-101A-B69C-00AA00341D07
+D27CDB6E-AE6D-11CF-96B8-444553540000
+abe2869f-9b47-4cd9-a358-c22904dba7f7
+00000000-0000-0000-C000-000000000046
+ADB880A6-D8FF-11CF-9377-00AA003B7A11
+5e7e8100-9138-11d1-945a-00c04fc308ff
+82bd0e67-9fea-4748-8672-d5efe5b779b0
+5e7e8100-9138-11d1-945a-00c04fc308ff
+82BD0E67-9FEA-4748-8672-D5EFE5B779B0
+8856F961-340A-11D0-A96B-00C04FD705A2
+\Device\KeyboardClass0
+Software\Skype\Phone
+Software\Microsoft\Windows\CurrentVersion\Group Policy Objects
+\registry\machine\system\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\
+SOFTWARE\Microsoft\Windows\CurrentVersion\Reliability
+SOFTWARE\Policies\Microsoft\Cryptography\AutoEnrollment
+SYSTEM\CurrentControlSet\Control\CrashControl\MachineCrash
+SYSTEM\CurrentControlSet\Control\MiniNT
+SYSTEM\CurrentControlSet\Control\Watchdog\Display
+SYSTEM\CurrentControlSet\Services\NetDDE
+SYSTEM\CurrentControlSet\Services\netlogon\parameters
+Software\Microsoft\Remote Desktop
+Software\Microsoft\Windows NT\CurrentVersion\SystemRestore
+Software\Microsoft\Windows NT\CurrentVersion\WPAReminders
+Software\Microsoft\Windows NT\CurrentVersion\Winlogon\LocalUsers
+Software\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify
+Software\Microsoft\Windows NT\CurrentVersion\Winlogon\SCLogon
+Software\Microsoft\Windows\CurrentVersion\Explorer\Remote\%d
+Software\Microsoft\Windows\CurrentVersion\ThemeManager\Remote\%d
+Software\Microsoft\Windows\CurrentVersion\WindowsUpdate
+Software\Policies\Microsoft\System\DNSclient
+Software\Policies\Microsoft\Windows NT\Terminal Services
+Software\Policies\Microsoft\Windows\Control Panel\Desktop
+Software\Policies\Microsoft\Windows\System\Power
+Software\Policies\Microsoft\Windows\System\Scripts\
+System\CurrentControlSet\Control\Lsa
+System\CurrentControlSet\Control\SafeBoot\Option
+System\CurrentControlSet\Control\Session Manager\Environment
+System\CurrentControlSet\Control\Session Manager\Memory ManagementLogonCrash
+System\CurrentControlSet\Control\Terminal Server
+System\CurrentControlSet\Control\Terminal Server\Licensing Core
+System\CurrentControlSet\Control\Windows
+System\CurrentControlSet\Services\Tcpip\Parameters
+System\WPA\
+SOFTWARE\Microsoft\Windows Messaging Subsystem
+HARDWARE\DEVICEMAP\SERIALCOMM
+HARDWARE\DEVICEMAP\PARALLEL PORTS
+SOFTWARE\KasperskyLab\protected\AVP9\settings
+SOFTWARE\KasperskyLab\protected\AVP8\settings
+SOFTWARE\kingsoft\AntiVirus
+SOFTWARE\JiangMin
+SOFTWARE\Norton\SecurityStatusSDK
+SOFTWARE\ESET\ESET Security\CurrentVersion\Info
+SOFTWARE\Microsoft\Virtual Machine\Guest\Parameters
+SYSTEM\ControlSet001\Services\vmxnet
+.DEFAULT\Software\Microsoft\Windows\CurrentVersion\RunServices
+.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Runonce
+.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Run
+Software\Microsoft\Windows\CurrentVersion\RunServices
+SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system
+Software\Cisco Systems\VPN Client\AllAccess
+SOFTWARE\AVAST Software
+SOFTWARE\ESET
+Software\Microsoft\Windows\CurrentVersion\Internet Settings
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\UserReset
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run\
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\UserInit
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Shell
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run\wdfmgr
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\UserRestart
+System\CurrentControlSet\Control\Session Manager\FileRenameOperations
+Software\Microsoft\Windows\CurrentVersion
+Software\Microsoft\windows\currentversion\Internet Settings
+Software\Microsoft\Windows\CurrentVersion\RunOnce
+Software\Microsoft\Windows\CurrentVersion\Run
+Software\Microsoft\Windows\CurrentVersion\Run\
+Software\Microsoft\windows\currentversion\Internet Settings
+SOFTWARE\Microsoft\Windows NT\CurrentVersion
+Software\Microsoft\Windows NT\CurrentVersion\ProfileGuid
+Software\Microsoft\Windows NT\CurrentVersion\ProfileList
+Software\Microsoft\Windows NT\CurrentVersion\Winlogon
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\SvcHost
+Software\Policies\Microsoft\Windows\System
+System\CurrentControlSet\Control\Session Manager
+CurrentVersion\Run
+HKEY_CLASSES_ROOT
+HKEY_CURRENT_USER
+HKEY_LOCAL_MACHINE
+HKEY_USERS
+HKEY_PERFORMANCE_DATA
+HKEY_CURRENT_CONFIG
+HKEY_DYN_DATA
+Hardware\Description\System\CentralProcessor
+Hardware\ACPI\DSDT
+HARDWARE\DEVICEMAP\SERIALCOMM
+HARDWARE\DEVICEMAP\Scsi\Scsi Port 0\Scsi Bus 0\Target Id 0\Logical Unit Id 0
+HARDWARE\DEVICEMAP\Scsi\Scsi Port 1\Scsi Bus 0\Target Id 0\Logical Unit Id 0
+SYSTEM\CurrentControlSet\Services\mssmbios\data
+SYSTEM\CurrentControlSet\Services\
+SYSTEM\CurrentControlSet\Services\RemoteAccess\RouterManagers\Ip
+hklm\SYSTEM\ControlSet001\Control\SafeBoot\Network\{4D36E967-E325-11CE-BFC1-08002BE10318}
+hklm\SYSTEM\ControlSet001\Control\SafeBoot\Minimal\{4D36E967-E325-11CE-BFC1-08002BE10318}
+SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
+HARDWARE\DESCRIPTION\System\CentralProcessor\0
+SOFTWARE\Microsoft\Shared Tools\MSConfig\startupfolder
+SOFTWARE\Microsoft\Shared Tools\MSConfig\startupfolder\
+SOFTWARE\Microsoft\Shared Tools\MSConfig\startupreg
+SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
+SYSTEM\CurrentControlSet\Control\Keyboard Layouts\
+Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+DisableTaskManager
+HKCU\Control Panel\Desktop
+SOFTWARE\Classes\TypeLib\{CB1F2C0F-8094-4AAC-BCF5-41A64E27F777}
+SOFTWARE\Classes\TypeLib\{9EA55529-E122-4757-BC79-E4825F80732C}
+CLSID\{11C1D741-A95B-11d2-8A80-0080ADB32FF4}\InProcServer32
+SOFTWARE\Classes\TypeLib\{F9043C88-F6F2-101A-A3C9-08002B2F49FB}\1.2\0\win32
+SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile\AuthorizedApplications\List
+System\CurrentControlSet\Control\BackupRestore\FilesNotToBackup
+LoadAppInit_DLLs
+AppInit_DLLs
+SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows
+\Microsoft\Windows\WSUS
+WarnOnIntranet
+Software\Microsoft\Internet Explorer\Main
+NoProtectedModeBanner
+Global\{A3BD3259-3E4F-428a-84C8-F0463A9D3EB5}
+Global\{A64C7F33-DA35-459b-96CA-63B51FB0CDB9}
+CLSID\{6C736DB0-BD94-11D0-8A23-00AA00B58E10}\EnableEvents
+ROOT\SecurityCenter
+ROOT\SecurityCenter2
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Kingsoft Antivirus
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Kingsoft Antivirus
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\360SD
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\360SD
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Kingsoft PC Doctor
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Kingsoft PC Doctor
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\360 Internet Security
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\360 Internet Security
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Kingsoft Internet Security 9
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Kingsoft Internet Security 9
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Kingsoft Internet Security U SP1
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Kingsoft Internet Security U SP1
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{D1ABBC6D-4C7B-4D6B-9B50-F79399DD3652}
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{D1ABBC6D-4C7B-4D6B-9B50-F79399DD3652}
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{AC54C7CC-3868-4942-BD2E-1BCA2519C881}
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{AC54C7CC-3868-4942-BD2E-1BCA2519C881}
+\shell\open\command
+\Device\KeyboardClassC
+\DosDevices\KeyboardClassC
+HKCR
+HKCU
+HKLM
+HKPD
+HKDD
+HKCC
+HKCU
+%ALLUSERPROFILE%
+%APPDATA%
+commonappdata
+%CommonProgramFiles%
+%HOMEPATH%
+%LOCALAPPDATA%
+%ProgramData%
+%ProgramFiles%
+%PUBLIC%
+%SystemDrive%
+%SystemRoot%
+%TEMP%
+%USERPROFILE%
+%windows%
+%windir%
+%system%
+%temp%
+%user%
+%programfiles%
+C:\Program Files\Common Files\System\wab32
+Microsoft Windows ME
+Microsoft Windows 98
+Microsoft Windows 95
+Microsoft Windows 2000
+Microsoft Windows XP
+Home-Basic-Edition
+Home-Premium-Edition
+Home_Edition
+Home_Server
+WinNT
+WIN32_NT
+WIN_2008R2
+WIN_7
+WIN_2008
+WIN_VISTA
+WIN_2003
+WIN_XPe
+WIN_XP
+WIN_2000
+Web_Server_Edition
+Standard_Edition_core_installation
+Standard_Edition
+Small_Business_Server_Premium_Edition
+Small_Business_Server
+Enterprise_Edition_for_ItaniumBased_System
+Enterprise_Edition_core_installation
+Datacenter_Edition_core_installation
+Datacenter_Edition
+Cluster_Server_Edition
+Starter_Edition
+Business_Edition
+Enterprise_Edition
+Home_Basic_Edition
+Home_Premium_Edition
+Ultimate_Edition
+Server2008R2
+Seven
+Server2008
+Win8
+WinServer2012
+Win7
+WinServer2008R2
+WinServer2008
+Vista
+WinHomeServer
+WinServer2003R2
+WinServer2003
+WinXP64
+WinXP
+Win2K
+Windows Me
+Windows 98
+Windows 95
+Windows NT
+Windows Vista
+Windows 7
+Windows 8
+Ultimate Edition
+Home Premium Edition
+Home Basic Edition
+Enterprise Edition
+Business Edition
+Starter Edition
+Cluster Server Edition
+Datacenter Edition
+Datacenter Edition (core installation)
+Enterprise Edition (core installation)
+Enterprise Edition for Itanium-based Systems
+Small Business Server
+Small Business Server Premium Edition
+Standard Edition
+Standard Edition (core installation)
+Web Server Edition
+Professional Edition
+Windows Server 2003
+Windows Server 2003 R2
+Windows Storage Server 2003
+Windows XP
+Windows XP Professional x64 Edition
+Windows XP Professional x64
+Datacenter Edition for Itanium-based Systems
+Datacenter x64 Edition
+Enterprise x64 Edition
+Standard x64 Edition
+Compute Cluster Edition
+Web Edition
+Home Edition
+Professional
+Windows 2000
+Datacenter Server
+Advanced Server
+Windows Home Server
+Windows Server 2008
+Windows Server 2008 R2
+Windows Server R2
+Media Center Edition
+Tablet PC Edition
+Embedded Edition
+Professional x64 Edition
+Storage Server 2003 R2
+Storage Server 2003
+Server 2003 R2
+Server 2003
+Server 2008
+Business
+Business N
+Datacenter Edition(Core)
+Enterprise N
+Enterprise Edition(Core)
+Home Basic
+Home Basic N
+Home Premium
+Home Premium N
+Ultimate
+Ultimate N
+Standard Edition(Core)
+NT3.1
+NT3.5
+NT3.51
+2000
+2003 Server
+2008 Server
+Win Vista
+Win Srv 2008
+Win 7
+Win 8
+Win Srv 2003
+Win Srv
+Win XP
+Win 2000
+Windows Server 2012
+32-bit Edition
+64-bit Edition
+Windows Server 2000
+2003
+2008
+Windows Server 2000
+76487-640-1457236-23837
+76487-337-8429955-22614
+76487-644-3177037-23510
+76487-640-8834005-23195
+76487-640-0716662-23535
+76487-644-8648466-23106
+76487-341-5883812-22420
+76487-OEM-0027453-63796
+76497-640-6308873-23835
+55274-640-2673064-23950
+00426-293-8170032-85146
+S-1-0
+S-1-0-0
+S-1-1
+S-1-1-0
+S-1-2
+S-1-2-0
+S-1-2-1
+S-1-3
+S-1-3-0
+S-1-3-1
+S-1-3-2
+S-1-3-3
+S-1-3-4
+S-1-5-80-0
+S-1-4
+S-1-5
+S-1-5-1
+S-1-5-2
+S-1-5-3
+S-1-5-4
+S-1-5-6
+S-1-5-7
+S-1-5-8
+S-1-5-9
+S-1-5-10
+S-1-5-11
+S-1-5-12
+S-1-5-13
+S-1-5-14
+S-1-5-15
+S-1-5-17
+S-1-5-18
+S-1-5-19
+S-1-5-20
+S-1-5-32-544
+S-1-5-32-545
+S-1-5-32-546
+S-1-5-32-547
+S-1-5-32-548
+S-1-5-32-549
+S-1-5-32-550
+S-1-5-32-551
+S-1-5-32-552
+S-1-5-64-10
+S-1-5-64-14
+S-1-5-64-21
+S-1-5-80
+S-1-5-83-0
+S-1-16-0
+S-1-16-4096
+S-1-16-8192
+S-1-16-8448
+S-1-16-12288
+S-1-16-16384
+S-1-16-20480
+S-1-16-28672
+S-1-5-32-554
+S-1-5-32-555
+S-1-5-32-556
+S-1-5-32-557
+S-1-5-32-558
+S-1-5-32-559
+S-1-5-32-560
+S-1-5-32-561
+S-1-5-32-562
+S-1-5-32-569
+S-1-5-32-573
+S-1-5-32-574
+S-1-5-32-575
+S-1-5-32-576
+S-1-5-32-577
+S-1-5-32-578
+S-1-5-32-579
+S-1-5-32-580
+S-1-5-80-2006800713-1441093265-249754844-3404434343-1444102779
+S-1-5-80-3864065939-1897331054-469427076-3133256761-1570309435
+http
+https
+httpmail
+nntp
+imap
+pop3
+file
+smtp
+ftp
+icmp
+[ESCAPE]
+[ENTER]
+[TAB]
+[DELETE]
+[CAPS LOCK]
+[BACKCPACE]
+[Backspace]
+[Enter]
+[Tab]
+[Arrow Left]
+[Arrow Up]
+[Arrow Right]
+[Arrow Down]
+[Home]
+[Page Up]
+[Page Down]
+[End]
+[Break]
+[Delete]
+[Insert]
+[Ent]
+[Print Screen]
+[Scroll Lock]
+[Caps Lock]
+[Alt]
+[Esc]
+[Back Space]
+[CONTROL]
+[PUSE]
+[LEFT]
+[RIGHT]
+[UP]
+[DOWN]
+[NUM LOCK]
+[RMOUSE]
+[LMOUSE]
+OnActivate
+OnCanClose
+OnChange
+OnClick
+OnClose
+OnCloseQuery
+OnCloseUp
+OnClose
+OnCreate
+OnCreatePanelClass
+OnData
+OnDataFind
+OnDataHint
+OnDataStateChange
+OnDeletion
+OnDestroy
+OnDockOver
+OnDragDrop
+OnDragOver
+OnDropDown
+OnEndDock
+OnEndDrag
+OnExit
+OnKeyDown
+OnKeyPress
+OnKeyUp
+OnMouseDown
+OnMouseEnter
+OnMouseLeave
+OnMouseMove
+OnMouseUp
+OnProgress
+OnTimer
+OnUnDock
+OnUpdate
+fuck
+Fuck You!!!
+sandboxfuck
+Fuck You By QQ:123**321
+Please Enable Content* to see this document.
+Enable Content
+ from the yellow bar above.
+Program Files (x86)
+Playx64
+PlayWin32
+PROCEXPLORER
+MSScriptControl.ScriptControl.1
+Embedded Control
+Microsoft Word 10.0
+OCXNAME
+movie
+money
+X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; VS2)
+User-Agent: SJZJ (compatible; MSIE 6.0; Win32)
+Accept: */*
+Accept: 
+Accept-Language: 
+Accept-Encoding: 
+Mr.Black
+WinZip Self-Extractor - Password
+This self-extracting Zip file is password protected.
+Windows Installer XML (3.0.5419.0)
+ResponseText
+MSXML2.ServerXMLHTTP$
+MSXML2.DOMDocument$
+Macros must be enabled to display the contents of the document.
+They are public gates to the secret server.
+Your decryption price will
+Your personal files are encrypted!
+for this computer. To decrypt files you need to obtain the
+the more chances are left to recover the files.
+!!!Rescue your files!!!
+Any attempt to remove or corrupt this software will result
+Now you have the last chance to decrypt your files.
+Any attempt to remove or corrupt this software will result
+in immediate elimination of the private key by the server.
+the more chances are left to recover the files.
+You must install this browser
+Your decryption price will
+Everything is fine now decrypting all files.
+All files Decrypted
+Enter Decrypt Key
+Follow the instructions on the server.
+SECG curve over a 256 bit prime field
+SmartAssembly.Attributes
+Copyright (c) 1998-2009 by Joergen Ibsen All Rights Reserved.
+More information: http://www.ibsensoftware.com/
+"Powered by SmartAssembly 6.8.0.121
+!Powered by SmartAssembly 6.6.1.44
+$Info: This file is packed with the UPX executable packer http://upx.sf.net $
+$Id: UPX 3.91 Copyright (C) 1996-2013 the UPX Team. All Rights Reserved. $
+Microsoft Application Compatibility Toolkit 5.6
+Management
+File manager
+System Manager
+Screen Capture
+Webcam Capture
+Packet Sniffer
+Listen
+Kill
+Background
+\\.\mailslot\%s
+Macromedia Flash Player 7.0  r14
+Macromedia Flash Player 7.0
+dbgeng
+Microsoft Office Word 97-2003
+Microsoft Word Document
+MSWordDoc
+Word.Application
+Microsoft Office Word
+Word.Document.8
+Network Performance and Security Manager
+ProxyEnable
+ProxyServer
+ProxyOverride
+ProxyUserName
+ProxyPassword
+SkpWnd
+SkypeControlAPIAttach
+SkypeControlAPIDiscover
+Skype:API
+GET SKYPEVERSION
+SkypePath
+AdministratorsGroup
+NtAuthority
+masterkey
+IEHistory
+BUILTIN
+NT AUTHORITY
+PR_Bind
+PR_Accept
+PR_AcceptRead
+PR_Connect
+PR_Listen
+PR_Read
+PR_Write
+PR_Writev
+PR_Close
+PR_Send
+PR_TransmitFile
+PR_OpenTCPSocket
+PR_GetSocketOption
+PR_SetSocketOption
+PR_Shutdown
+PR_GetError
+PR_SetError
+PR_GetNameForIdentity
+cards
+card
+speex-1.1.11.1
+Time expiried.
+PClock
+Start scanner
+Scanner completed
+Start crypter
+Files encrypted
+TCustomDecompressor
+TCompressedBlockReader
+SoftDownloaderWnd
+MemoryScanner
+ActiveX Control
+\\.\PhysicalDrive%d
+Microsoft Windows Auto Update
+PB_DropAccept
+PB_WindowID
+IsAdmin
+CryptKeyType
+CryptKeyId
+NetAdapter
+Gateway
+PriWinsServer
+SecWinsServer
+DHCPServer
+DnsServer
+Microsoft Enhanced Cryptographic Provider v1.0
+Microsoft Base Cryptographic Provider v1.0
+Gestalt
+stub_helper
+vm_protect
+FtpServer
+FtpUserName
+FtpPassword
+FtpDirectory
+RootDirectory
+Port
+ServerType
+onEnterFrame
+attachMovie
+error to get HDD firmware serial
+aPLib v1.01  -  the smaller the better :)
+TrojanEngine
+Clinic
+NetMon
+FileSmash
+SafeBox
+IERepair
+KillVirus
+SoftMove
+SysClean
+Trojan
+CrashStackLen
+CrashDumpLen
+CrashStackBase64Len
+CrashDumpBase64Len
+CrashStack
+MinDump
+Google Update Service
+googleupdate
+VIRUS
+QEMU
+PaySafeCard
+MoneyPak
+moneypak
+Safengine Shielden v2.3.0.0
+MSFT
+EnumProcess
+InjectByPid
+Send to Server failed.
+HandShake with the server failed. Error:
+Microsoft Unified Security Protocol Provider
+ddos.bot
+passwords
+httpserver
+makedir
+sendkeys
+opencmd
+ProcessorNameString
+Identifier
+VendorIdentifier
+SystemBiosVersion
+SystemBiosDate
+VideoBiosVersion
+VideoBiosDate
+Windows File Protection
+LogonFailure
+killthread
+startkeylogger
+stopkeylogger
+listprocesses
+killprocess
+stopspy
+redirectspy
+stopredirectspy
+kazaabackupfiles
+SC_MONITORPOWER
+HWND_BROADCAST
+IsConnectedToInternet
+get_MachineName
+MacAddress
+InternetExplorer.Application
+EmailAddress
+PopServer
+PopPort
+PopAccount
+PopPassword
+SmtpServer
+SmtpPort
+SmtpAccount
+SmtpPassword
+WininetCacheCredentials
+MS IE FTP Passwords
+PasswordType
+OutpostMonitor
+telnet
+Download.Complete
+Download.Cancelled
+Download.Failed
+onLoadInit
+onLoadProgress
+onLoadError
+onLoadComplete
+onLoadStart
+onScroller
+onChanged
+onConstruct
+onDragOut
+onDragOver
+onRollOut
+onRollOver
+onReleaseOutside
+onRelease
+onPress
+onInitialize
+onKeyUp
+onKeyDownv
+onMouseUp
+onMouseDown
+onMouseMove
+onUnload
+onEnterFrame
+location.href
+xmlns:xlink
+SMTP Password
+HTTPMail Password
+NNTP Password
+IMAP Password
+POP3 Password
+NNTP Password
+IMAP Password
+POP3 Password
+IMAP Port
+SMTP Port
+POP3 Port
+SMTP User
+HTTPMail Server
+IMAP User
+POP3 User
+HTTP Server URL
+HTTP User
+Email
+IMAP User Name
+IMAP Server
+NNTP Server
+NNTP User Name
+NNTP Email Address
+SMTP User Name
+SMTP Server
+SMTP Email Address
+Adobe ImageReadyq
+ClearBrowsingHistoryOnExit
+GetMACAddress
+GetProcessesByName
+WebRequest
+WebResponse
+GetResponse
+GetVolumeSerial
+ENCRYPtSTRING
+ENCRYPTBYTe
+VBRUN
+Blowfish
+CreateDecryptor
+MD5CryptoServiceProvider
+TripleDESCryptoServiceProvider
+PaddingMode
+iexplorer
+Shell_TrayWnd
+ExecuteCommand
+RunPE
+CCleaner
+Binder
+SpyTheSpy
+TCPEye
+SpeedGear
+taskmgr
+IPBlocker
+CCleaner
+procexp
+Windows Update
+Payment ok
+Payment Received. Proceed to decryption.
+Waiting Payment
+Waiting TOR Connection
+TorLocker
+proxyPort = 58010
+socksParentProxy = 127.0.0.1:9150
+socksProxyType = socks5
+TorLocker_v0.9.3
+127.0.0.1:58010
+Wallpaper
+kippohome
+huffman
+DecodeHuffman
+Decode
+Inflate
+Unzip
+ZipAndEncrypt
+ZipAndAES
+LoadFile
+SafenSoft
+SysWatch
+McAfee
+Security Center
+Symantec
+Protection
+Norton
+Host OS
+PONG!
+ReadPort
+WritePort
+cookie_module
+Proxy-Connection
+CompressAndSend
+EncryptFile
+RunAsShellUser
+SVNCStartServer
+Terminal Server
+Enterprise
+LanmanNT
+BEGIN
+CONNECTED
+SENDME
+EXTEND
+EXTENDED
+TRUNCATE
+TRUNCATED
+RESOLVE
+RESOLVED
+BEGIN_DIR
+ESTABLISH_INTRO
+ESTABLISH_RENDEZVOUS
+INTRODUCE1
+INTRODUCE2
+RENDEZVOUS1
+RENDEZVOUS2
+INTRO_ESTABLISHED
+RENDEZVOUS_ESTABLISHED
+INTRODUCE_ACK
+system.log
+tor.exe
+tcpdump.exe
+windump.exe
+ethereal.exe
+wireshark.exe
+ettercap.exe
+snoop.exe
+dsniff.exe
+ChewBacca/
+chewbacca
+.onion/
+TMemoryScanner
+Symantec Shared
+CWSandbox
+AVAST Software
+Registry optimiser
+Optimizing the registry...
+Virtual HD
+News Letter
+Subject:
+db2admin
+nopassword
+password12
+secret
+superman
+iloveyou
+hello
+helpme
+hockey
+home123
+changeme
+MsComCtl.ocx
+HotTracking
+OpenProcessToken fail
+AdjustTokenPrivileges fail
+replacement
+settings
+formgrabber
+redirects
+httpinjects
+Transfer-Encoding
+modify
+pattern
+conditions
+actions
+process
+NtShutdownSystem
+coin-miner
+regwrite
+urlmon
+Internet Explorer
+inhibitPolicyMapping
+infinite
+Bad time value
+pubkey.bin
+openssl
+relativename
+Polynomial
+AES
+RSA
+RID
+cryptedcount.txt
+explicitText
+ASN1
+requireExplicitPolicy
+LanmanWorkstation
+LanmanServer
+DNS
+Salt Length
+Seed
+Prime
+config.nt
+autoexec.nt
+protocol testing
+experience Destroy
+go.exe
+userinit.exe
+Dispatch
+winsock
+connection failed
+open internet failed
+payload
+Wscript.Shell
+Shell.Application
+createobject
+Setup.exe
+Extracting
+UltraVnc
+UltraVncSC
+RunProgram
+*.ocx
+*.dll
+IMAGEHLP.dll
+Signature
+installer.exe
+Fast decoding
+Win32.exe
+Gina
+cgets
+Macromedia
+FlashPlayer
+NetworkService\Cookies\
+Scheduler
+Local Settings\History\History.IE5
+leave the progress due to 10 attempts
+unrarw32
+server
+verifyinginstaller
+xxx.exe
+Mozilla
+CONNECT
+system.exe
+cmd.exe
+AppData
+admin
+Microsoft.VisualBasic
+Dictionary
+Protocol not supported
+referer
+partner_online_url
+partner_new_url
+runprog.exe
+CDATA[
+exe.agent.mail
+mail.ru
+password
+Launcher
+setup
+remote
+random
+inject
+hook
+crack
+script
+browse
+Clipboard
+Event
+Privilege
+Reboot
+CABINET
+CabinetFile
+cabfile
+extract
+rundll32.exe
+REGTLIB.EXE
+VB Runtime Installation
+Command.com
+Resume
+Pause
+Socket
+GetCode
+Console
+LZStart
+About:blank
+shell
+666
+alert
+reverse
+swap
+logon
+logoff
+HookProc
+attempt
+users
+load
+query
+scan
+module
+drop
+loop
+wait
+iexplore.exe
+Download
+Upload
+CONNECT
+wuauclt.exe
+Poison.exe
+explorer.exe
+pipe
+Transaction
+Created by
+Accept: */*
+setup.exe
+inetinfo.exe
+WinDir
+update.html
+exec error
+application/x-www-form-urlencoded
+LordPE
+Silvana
+petite
+PROGRAM
+deflate
+60794-12b3-e4169440
+Keep-Alive
+Referer
+WinSta0
+Gh0st
+Update
+CapsLock
+svcshost.exe
+Forbidden
+Accepted
+sessionid
+sharedaccess
+localgroup
+administrators
+Administrator
+guest
+RDP-Tcp
+UnknownProcess
+%d Day %d Hour %d Min
+termsrv_t
+Winlogon
+nsocket
+repeat
+compression
+dictionary
+userprofile
+webkit
+command
+tracing
+sandbox
+keystroke
+Adobe
+scanning
+Callback
+torrent
+Outsanding
+localhost
+proxy
+downspeed
+korean
+chinese
+japanese
+interval
+webseeds
+666
+POST
+fingerprint
+DNA_Proxy
+min_http_connections
+Unauthorized
+pairing
+TOKEN
+subscribe
+guest.html
+announce
+multicast
+payload
+DEBUG
+UPnP
+channel
+tracker
+NAT
+DHCP
+Host
+keyhash
+packet
+watchdog
+shared
+are you debugging me
+HHA Version 4.74.8702
+ThisprogrammustberununderWin32
+Shit!!
+PrepareOurShit
+Exefiles
+Scanning
+StdOut
+Codecs
+ProgramFilesDir
+Install
+\Temp
+SHFOLDER
+NullsoftInst
+WinRAR SFX
+287333.dat
+\\cryptme\\
+Autoit3.824383.exe
+run.vbs
+{0000054f-0000-0010-8000-00aa006d2ea4}
+username
+Password
+Username
+Expires
+User-Agent
+Cookie
+taskmgr.exe
+regedit.exe
+serialNumber
+userPassword
+public_key
+serial
+Public-Key
+Private-Key
+Seed:
+encryption
+PECompact2
+logFile
+index.html
+application/pdf
+Run as a daemon
+http.c
+client.c
+127.0.0.1
+serverTimeout
+Server closed connection
+nameserver
+autorun.exe
+Autorun.exe
+COMSPEC
+csrss.exe
+OLLYDBG
+WinDbgFrameClass
+BankID
+DANCHODANCHEV_END_BRIANKREBS_GOT_FARRIED
+Timer1
+Timer2
+Timer3
+Mscomctl32.ocx
+WebBrowser
+Logout
+VBA6.DLL
+9368265E-85FE-11d1-8BE3-0000F8754DA1
+TIPOFDAY.TXT
+Scripting.FileSystemObject
+LoVein1
+MZKERNEL32.DLL
+KerNel32.dll
+downloader
+browser
+NETSCAPE2.0
+opera
+RemoveRange
+AuthenticationMode
+Downloader
+chromepref
+Downloader.exe
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+FPC 2.7.1 [2013/10/22] for i386 - Win32
+pipedatacontinue
+sdwefa.gif
+CONIN$
+CONOUT$
+~MS80547.bat
+Shell
+reg.exe
+IE 8.5
+start
+whoami
+pidrun
+geturl
+rusinfo.exe
+letusgohtppmmv1.0
+letusgohtppmmv2.0.0.1
+Sometimes
+Destroy
+likubes
+fine musicians
+file not found
+brothers-in-law
+_RTL_CRITICAL_SECTION_DEBUG
+_RTL_CRITICAL_SECTION
+_SECURITY_ATTRIBUTES
+lpSecurityDescriptor
+SysUtils
+ActiveX
+700.bat
+Sitikat
+1.exe
+UpdateOffice.exe
+pangtip.bat
+ping
+pkxm
+pangtip.bat
+Reply from
+DCOM not installed
+PROXY_TYPE_DIRECT
+PROXY_TYPE_AUTO_DETECT
+downfile
+upfile
+quitz
+debugmessage
+debugclient
+debugfile
+delfile
+delmessage
+delclient
+listfiles
+listmessages
+listclients
+WinSta0\Default
+POST
+CONNECT
+NetSubKey
+FileDescrsiption
+state.ini
+Accepted:
+sha256
+sinzy
+AckPacket
+Connection
+autoRunKeyPath
+SIGNATURE
+messageId
+HeartBeat
+Request
+Unload
+RequestLoop
+HeartBeatLoop
+TcpClient
+Connect
+Login
+CurrentUser
+CreateDomain
+ComputeHash
+cookies.*
+Tfrmrpcap
+ProcessLasso_Notification_Class
+TSystemExplorerTrayForm.UnicodeClass
+PROCMON_WINDOW_CLASS
+PROCEXPL
+WdcWindow
+ProcessHacker
+Dumper
+Dumper64
+APISpy32Class
+Zone.Identifier
+:Zone.Identifier
+runas
+sysprep
+TokenPrivilege
+Shutdown
+WebKit2WebProcess
+cmd /c net start %s
+Sleeping
+Ivan Medvedev
+Rijndael
+SystemBiosVersion
+VideoBiosVersion
+VirtualBox
+Identifier
+UDPV6
+TCPV6
+ deflate 1.2.3 Copyright 1995-2005 Jean-loup Gailly
+ deflate 1.1.4 Copyright 1995-2002 Jean-loup Gailly
+ inflate 1.2.3 Copyright 1995-2005 Mark Adler 
+ inflate 1.1.4 Copyright 1995-2002 Mark Adler 
+History
+ProductType
+RegisterRawInputDevices
+GetRawInputData
+protocol>
+sqlite3_open
+sqlite3_close
+sqlite3_prepare_v2
+sqlite3_step
+sqlite3_column_text
+plugins
+Hibernating
+Valid
+Running
+downtime-started
+uptime-started
+Intel Hardware Cryptographic Service Provider
+lpAddress
+BeginInvoke
+EndInvoke
+StatusChecker
+Encoding
+semaphore
+stand by
+startime
+status
+taskeng.exe
+taskhost.exe
+taskhostex.exe
+throttle
+Mandatory Level
+*.DMP
+*.dmp
+_invoke_watson
+remove
+debug
+Starting...
+hostname
+clientkey
+reqfilepath
+reqfile
+postvalue
+postfile
+postdata
+mkdir
+rmdir
+chdir
+Creating service database record...
+svchost
+rpcsrv
+Setting service description...
+svchost
+Opening and Quering Service...
+Service is running wait until stopped...
+Stopped
+Deleting Service...
+Service uninstall success.
+CompareString
+Engine started
+Running in background
+Stale thread
+Locking doors
+Rotors engaged
+Im going to start it
+\DosDevices\DKOM_Driver
+\Device\DKOM_Driver
+Process successfully hidden.
+Process ID: %d
+EPROCESS address: %#x
+ActiveProcessLinks offset: %#x
+Extracting %s
+Your message has been sended
+Couponserver
+xmlUrl
+yahoo
+LoadXml
+LocalMachine
+DownloadAll
+DownloadComplete
+DownloadFile
+DownloadFileAsync
+DownloadServer
+DownloadThreads
+DownloadUrl
+Downloaded
+DownloadedBrowser
+Downloading...
+CorruptedMachine
+HtmlGenerator
+MachineInfo
+MachineRestriction
+RegSAM
+Security
+MemoryManagement
+Trackingurls
+TypeChekDomain
+DownloadUrl
+QueueDownloader
+ZipManager
+ZipStorer
+Firefox
+Chrome
+InternetExplorer
+GetIEVersion
+GetWBVersion
+webBrowser1
+changeHtmlCode
+retries
+completed
+addextension
+DownloadComplete
+add_DownloadComplete
+remove_DownloadComplete
+DownloadThreads
+Arquitecture
+Monetizer
+yahoo
+internetTurbo
+strongvault
+amonetize
+Couponserver
+ShoppingChip
+UsedBrowser
+AndroidAPK
+IexplorerMinVersion
+checkMachineInfo
+checkYahooBug
+checkCouponserver
+checkInternet
+checkAOLbug
+hideWhenInstalling
+idPromo
+WebmasterId
+firewalls
+IsControlled
+Microsoft Network Monitoring Service
+Host Process for Windows Services
+MsNetMonitor
+HideWindow
+Windows Filter Driver
+firewall
+IsUserAdministrator
+EVERYONE
+CreateSubKey
+NotifyDownloading
+isvirtualMachine
+isdebugging
+HasDebugger
+debugging
+checkurls
+ListSoftwares
+CheckAdminPrivileges
+TrackOnDefaultBrowser
+GetDomain
+checkdomain
+bytesDownloaded
+God Mode
+logger
+This plugin is already loaded.
+The plugin you are trying to load does not exist
+Whitelist protection on
+Hook cleaning on
+PiD obfuscation on
+Code injection successful!
+Code injection failed!
+Injecting code ...
+Code Injection
+Creating a remote thread ...
+Keylogging disabled.
+failed to get memory
+$Id: qmath.hv 1.1 2004/01/15 19:50:35 jonbennett Exp $
+#requireadmin
+#notrayicon
+#include-once
+D:\RECYCLER\
+Windows Registry Editor Version 5.00
+start
+stop
+DisallowRun
+NoDriveTypeAutoRun
+HideFileExt
+Hidden
+SuperHidden
+Application cannot be run with debugger or monitoring tool(s) loaded!
+Logon User Name
+NoFolderOptions
+Happy BirthDay mys Boss
+Merry Christmas
+Starting Hide myself ...
+Starting Killing myself ...
+newKeyPair
+privateKey
+publicKey
+cypherText
+LZO real-time data compression library.
+Access denied!
+Total entries: %d
+Entries enumerated: %d
+Upload file ok!
+create remote file error!
+Download file ok!
+Reading remote file error!
+create pipe error!
+start cmd error!
+Logon user err!
+execute error!
+bind cmd frist!
+CS thread still active!
+get user name error!
+cant get ver info!
+Windows?
+Remote
+Ramdisk
+Client process-%d-stoped!
+Create localfile error!
+DownloadEnd
+List domain server ok!#
+fileupload
+cruisenet
+chunked
+bankman
+javascript:
+ unzip 0.15 Copyright 1998 Gilles Vollant 
+Schedule service command line interface
+This operation will delete all scheduled jobs.
+The AT schedule file was cleared.
+Deletes one or more files.
+Creates a directory.
+Removes (deletes) a directory.
+already running
+Botnet has been shutdown - restart bot?
+Botnet shutdown
+QUIT :Botnet shutdown
+PRIVMSG %s :bingo - botnet shutting down
+Resistance is futile
+No malware here honest guv!
+Anti-debug
+misery mystery
+malfor
+AppleMac
+.detour
+Detoured
+.memdump
+Client hook allocation failure.
+silentpostback
+AlreadyRunning
+StubInfo
+wrapper
+keeplog
+pingdialog
+runonce
+noreq
+verifycookies
+account
+accountid
+selftest
+silenterr
+preload
+PostbackSent
+StubRun
+StubExtract
+WaitablePort
+Waiting
+Waiting Connections
+ServiceMain
+ServTestDos
+VBoxGuest
+Betabot
+HGFS
+Hashtable
+GetResourceString
+Monitor
+www.memtest86.com
+boxedapp.com
+julian seward
+RegServer
+Send ack is successful.
+Get the right data.
+Receiving acknowledgment is successful.
+Receiving packet failed.
+Sending packet success...
+Cant get the right data
+Initialization is successful.
+Initialization is failed.
+tempPass.txt
+POP3 Password2
+POP3 Server
+POP3 User Name
+HTTPMail Password2
+Hotmail
+HTTPMail User Name
+ 2004 2005 Pierre le Riche / Professional Software Development
+Broadcast adress :
+Broadcasts : NO
+Broadcasts : YES
+SHELLEXECUTE
+SHELLEXECUTEWAIT
+#BOT#CloseServer
+#BOT#OpenUrl
+#BOT#Ping
+#BOT#RunPrompt
+#BOT#SvrUninstall
+#BOT#URLDownload
+#BOT#URLUpdate
+#BOT#VisitUrl
+#CAMEND
+#FreezeIO
+#GetClipboardText
+#GetScreenSize
+#KCMDDC51#-
+#KEEPALIVE#
+#RemoteScreenSize
+#SendClip
+#SendTaskMgr
+#UnFreezeIO
+%IPPORTSCAN
+ActiveOfflineKeylogger
+ActiveOnlineKeyStrokes
+ActiveOnlineKeylogger
+AntiVirusDisableNotify
+BTMemoryLoadLibary: Cant attach library
+Be Right Back
+DownloadFail
+DownloadSuccess
+Progman
+Sender
+UPLOADEXEC
+UPLOADFILE
+UnActiveOfflineKeylogger
+UnActiveOnlineKeyStrokes
+UnBlockContact
+Video Capture
+WEBCAMLIVE
+WEBCAMSTOP
+drivers\etc\hosts
+unknown compression method
+wscsvc
+fukoff
+httpstop
+logstop
+ftfpstop
+procsstop
+securestop
+reconnect
+disconnect
+botid
+aliases
+flusharp
+flushdns
+crash
+killthreads
+killproc
+killid
+.download
+.update
+Kennwort
+Object dump complete.
+PAYPAL
+PAYPAL.COM
+Ping flood
+ROOTED
+Rebooting system
+Reconnecting
+Referer: %s
+Remote Command Prompt
+Removing Bot
+[DDoS]
+[KEYLOG]: %s
+[PRSC]
+[PSNIFF]
+[PING]
+[TFTP]
+[UPD]
+administrador
+administrat
+administrateur
+Download complete
+ALIEN-Z
+\Google\Chrome\User Data
+VncSrvWndProc
+VncStopServer
+VncStartServer
+VNCCreateServer
+VNCServerThread
+VNCStartServer
+FPUMaskValue
+PhysicalDrive0
+Protection Error
+LOADER ERROR
+The procedure entry point
+Invalid DOS signature
+Invalid COFF signature
+Invalid Windows Image
+Host is down.
+No route to host.
+CoMessengerU
+debugger
+sample
+virtual
+emulat
+GetProcesses
+MemoryStream
+GZipStream
+MulticastDelegate
+IAT processed
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+/
+putfile:
+getfile:
+outlook
+iexplore
+source
+Connecting
+Downloading
+Cancelled
+Connecting
+Reconnect Pause
+Terminated
+Transfer Error
+Connection Error
+OpenRequest Error
+SendRequest Error
+URL Parts Error
+CreateThread Error
+Request Error
+Server Error
+Redirection
+TypeLib
+Hardware
+Interface
+FileType
+Component Categories
+CLSID
+AppID
+Delete
+NoRemove
+ForceRemove
+Keylogger
+crypter
+dump
+vbox
+NetKeyLogger
+TARGET
+pipeline
+miner
+Execute ERROR
+Download ERROR
+Executed As
+Execute ERROR
+Update ERROR
+Updating To
+Update ERROR
+ASPNET
+IUSR_
+IWAM_
+ASPNET
+POP3
+Authors
+Admins
+Browsers
+Guests
+Users
+Developers
+webBrowser2
+IEFrame
+\\.\pipe\
+permission denied
+permission_denied
+connection_already_in_progress
+connection_aborted
+connection_refused
+host_unreachable
+already_connected
+network_down
+network_reset
+network_unreachable
+not_connected
+wrong_protocol_type
+broken pipe
+connection aborted
+connection already in progress
+connection refused
+host unreachable
+network down
+network reset
+network unreachable
+owner dead
+protocol error
+wrong protocol type
+EXECUTABLE
+master
+debian
+mysql
+daemon
+backup
+marta
+oracle
+redhat
+VNC%d.%d
+exploitable
+passwd
+proxypasswd
+proxyuser
+Login denied
+Remote file not found
+RenameFile
+RunPrompt
+RunSelectedAsAdmin
+RunSelectedHidden
+RunSelectedShow
+RemoteMachineName
+AheadLib
+PlusDLL
+PLUSUNIT
+web-browser
+SetHook
+TMemoryScanner
+IMAGE_DOS_HEADER
+IMAGE_NT_HEADERS32
+IMAGE_FILE_HEADER
+IMAGE_OPTIONAL_HEADER32
+IMAGE_OPTIONAL_HEADER64
+IMAGE_DATA_DIRECTORY
+IMAGE_NT_HEADERS64
+IMAGE_IMPORT_BY_NAME
+IMAGE_IMPORT_DESCRIPTOR
+IMAGE_THUNK_DAT
+IMAGE_THUNK_DATA32
+IMAGE_DELAY_IMPORT_DESCRIPTOR
+IMAGE_NT_OPTIONAL_HDR32_MAGIC
+IMAGE_NT_OPTIONAL_HDR64_MAGIC
+IMAGE_SUBSYSTEM_UNKNOWN
+IMAGE_SUBSYSTEM_NATIVE
+IMAGE_SUBSYSTEM_WINDOWS_GUI
+IMAGE_SUBSYSTEM_WINDOWS_CUI
+IMAGE_SUBSYSTEM_POSIX_CUI
+IMAGE_SUBSYSTEM_WINDOWS_CE_GUI
+IMAGE_SUBSYSTEM_EFI_APPLICATION
+IMAGE_SUBSYSTEM_EFI_BOOT_SERVICE_DRIVER
+IMAGE_SUBSYSTEM_EFI_RUNTIME_DRIVER
+IMAGE_SUBSYSTEM_EFI_ROM
+IMAGE_SUBSYSTEM_XBOX
+IMAGE_DLL_CHARACTERISTICS_DYNAMIC_BASE
+IMAGE_DLL_CHARACTERISTICS_FORCE_INTEGRITY
+IMAGE_DLL_CHARACTERISTICS_NX_COMPAT
+IMAGE_DLLCHARACTERISTICS_NO_ISOLATION
+IMAGE_DLLCHARACTERISTICS_NO_SEH
+IMAGE_DLLCHARACTERISTICS_NO_BIND
+IMAGE_DLLCHARACTERISTICS_WDM_DRIVER
+IMAGE_DLLCHARACTERISTICS_TERMINAL_SERVER_AWARE
+Protect
+PAGE_NOACCESS
+PAGE_READONLY
+PAGE_READWRITE
+PAGE_WRITECOPY
+PAGE_EXECUTE
+PAGE_EXECUTE_READ
+PAGE_EXECUTE_READWRITE
+PAGE_EXECUTE_WRITECOPY
+PAGE_GUARD
+PAGE_NOCACHE
+PAGE_WRITECOMBINE
+EXECUTE
+EXECUTE_READ
+EXECUTE_READWRITE
+EXECUTE_WRITECOPY
+NOACCESS
+READONLY
+READWRITE
+WRITECOPY
+MOVEFILE_REPLACE_EXISTING
+MOVEFILE_COPY_ALLOWED
+MOVEFILE_DELAY_UNTIL_REBOOT
+MOVEFILE_WRITE_THROUGH
+TokenUser
+TokenGroups
+TokenPrivileges
+TokenOwner
+TokenPrimaryGroup
+TokenDefaultDacl
+TokenSource
+TokenType
+TokenImpersonationLevel
+TokenStatistics
+TokenRestrictedSids
+TokenSessionId
+TokenGroupsAndPrivileges
+TokenSessionReference
+TokenSandBoxInert
+TokenAuditPolicy
+TokenOrigin
+TokenElevationType
+TokenLinkedToken
+TokenElevation
+TokenHasRestrictions
+TokenAccessInformation
+TokenVirtualizationAllowed
+TokenVirtualizationEnabled
+TokenIntegrityLevel
+TokenUIAccess
+TokenMandatoryPolicy
+TokenLogonSid
+TokenPrimary
+TokenImpersonation
+SecurityAnonymous
+SecurityIdentification
+SecurityImpersonation
+SecurityDelegation
+\\.\PhysicalDrive0
+windowsupdate
+wilderssecurity
+castlecops
+spamhaus
+cpsecure
+arcabit
+emsisoft
+sunbelt
+securecomputing
+rising
+prevx
+computerassociates
+networkassociates
+etrust
+rootkit
+spyware
+vmdebug
+VMware Replay Debugging Helper
+VMware VMCI Bus Driver
+vmci
+VMware Pointing Device
+vmmouse
+Virtual Machine Additions Mouse Integration Filter Driver
+msvmmouf
+MS Virtual SCSI Disk Device
+VMware Workstation v10
+VMwareDragDetWndClass
+VMwareSwitchUserControlClass
+VMware
+VMware Pointing
+VMware server memory
+VMware Replay
+AntiVirtualBox
+AntiVmWare
+AntiVirtualPC
+AntiMalwarebytes
+AntiOllydbg
+AntiWireshark
+antiSpyware
+Anti-Virus
+avast!
+AntiVir
+Inspection
+Malware
+Norton Personal Firewall
+ZoneAlarm
+Comodo Firewall
+eTrust EZ Firewall
+F-Secure Internet Security
+McAfee Personal Firewall
+Outpost Personal Firewall
+Panda Internet Seciruty Suite
+Panda Anti-Virus/Firewall
+BitDefnder/Bull Guard Antivirus
+Rising Firewall
+360Safe AntiArp
+Kingsoft Safe
+Fiddler
+wireshark
+Chromium
+!This is a PE executable
+NEWGRAB
+SCREENSHOT
+sURL
+sFileName
+AddressBook
+TrustedPeople
+TrustedPublisher
+RunProgram
+GUIMode
+@Install@
+@InstallEnd@
+protocol_not_supported
+network down
+network reset
+network unreachable
+network_down
+network_reset
+network_unreachable
+host unreachable
+host_unreachable
+PendingFileRenameOperations
+MyApplication.app
+Microsoft.Windows.MyCoolApp
+Application description here
+InstallHOOK
+InstallLocalHOOK
+UninstallHOOK
+ZLibEx
+PsAPI
+Xenocode Virtual Desktop
+start.spoon.net
+Spoon Virtual Machine
+Xenocode Virtual Appliance Runtime
+CPlApplet
+Java Security Plugin
+javaplugin
+Java Security Plugin
+Sun Java Security Plugin
+VMProtect begin
+VMProtect end
+[BeginChat]
+friend
+KernelUtil
+NETWORK SERVICE
+Cookies
+Administrative Tools
+WinFTP
+PortNumber
+CREATE_SUSPENDED
+VBScript.Encode
+JScript.Encode
+WScript
+ExeScriptPAD
+ExeScript
+silent
+ExeScript Host
+onbeforeunload
+onunload
+Godmode
+anonymous
+Connecting....
+DECOMPRESSOR
+antivirus
+AntivirusProduct
+DefaultBrowser
+MemoryProtection
+Manager
+BaseScript
+Updater
+SafeStarter
+CreateProcessInternal
+IDetourHook
+DetourHook
+productUptoDate
+productState
+ScriptText
+ScriptingEngine
+ProbeScriptFint
+ActiveScriptEventConsumer
+__EventConsumer
+__EventFilter
+__FilterToConsumerBinding
+__TimerInstruction
+root/cimv2
+WbemScripting.SWbemLocator
+ROOT\CIMV2
+SELECT * from tab_online
+SELECT * from %s
+SELECT * from moz_logins
+SELECT * from
+SELECT * from
+SELECT * from Win32_BaseBoard
+SELECT * from Win32_OperatingSystem
+SELECT * from Win32_Processor
+SELECT * from Win32_TimeZone
+SELECT * from msft_providers
+SELECT * from __win32provider where Name
+SELECT * from msft_providers
+SELECT * from msft_providers where HostProcessIdentifier
+SELECT * from AntivirusProduct
+SELECT * from FirewallProduct
+SELECT * from Win32_ComputerSystem
+SELECT * from Win32_Process
+SELECT * from Win32_BIOS
+SELECT * from Win32_VideoController
+SELECT * from Win32_SystemEnclosure
+SELECT hostname encryptedUsername encryptedPassword FROM moz_logins
+Manufacturer
+Model
+SerialNumber
+ChassisTypes
+SMBIOSAssetTag
+CREATE %s %.*s
+CREATE TABLE
+CREATE TABLE %Q.%s(%s)
+CREATE TABLE sqlite_master(
+CREATE VIRTUAL TABLE %T
+CREATE%s INDEX %.*s
+WMessages
+WM_HTML_GETOBJECT
+WM_MOUSEMOVE
+WM_LBUTTONUP
+WM_LBUTTONDOWN
+WM_COPYDATA
+STANDARD_RIGHTS_REQUIRED
+STANDARD_RIGHTS_READ
+TOKEN_ASSIGN_PRIMARY
+TOKEN_DUPLICATE
+TOKEN_IMPERSONATE
+TOKEN_QUERY
+TOKEN_QUERY_SOURCE
+TOKEN_ADJUST_PRIVILEGES
+TOKEN_ADJUST_GROUPS
+TOKEN_ADJUST_DEFAULT
+TOKEN_ADJUST_SESSIONID
+TOKEN_READ
+TOKEN_ALL_ACCESS
+ERROR_INSUFFICIENT_BUFFER
+SECURITY_MANDATORY_UNTRUSTED_RID
+SECURITY_MANDATORY_LOW_RID
+SECURITY_MANDATORY_MEDIUM_RID
+SECURITY_MANDATORY_HIGH_RID
+SECURITY_MANDATORY_SYSTEM_RID
+SECURITY_MANDATORY_LABEL_AUTHORITY
+SE_GROUP_MANDATORY
+SE_GROUP_ENABLED_BY_DEFAULT
+SE_GROUP_ENABLED
+SE_GROUP_OWNER
+SE_GROUP_USE_FOR_DENY_ONLY
+SE_GROUP_INTEGRITY
+SE_GROUP_INTEGRITY_ENABLED
+SE_GROUP_LOGON_ID
+SE_GROUP_RESOURCE
+SE_GROUP_VALID_ATTRIBUTES
+RuntimeHelpers
+System.Security
+System.Runtime.CompilerServices
+System.Security.Cryptography
+System.Reflection
+System.Text.RegularExpressions
+System.Runtime.InteropServices
+System.Security.Principal
+System.Threading
+System.IO.Compression
+System.Net.Configuration
+System.Net.Sockets
+Microsoft.VisualBasic.CompilerServices
+Internet Explorer_Server
+vbscript
+javascript
+JavaScript
+execScript
+AutoRun
+HashSize
+Algorithm
+BlockSize
+CipherMode
+Twofish
+Wrong password
+Proxy-Connection:
+User-Agent:
+WWW-Authenticate:
+Proxy-authenticate:
+Content-Length:
+Connection:
+Transfer-Encoding:
+GOPHER
+Digest
+nonce
+stale
+realm
+opaque
+Referer:
+Range:
+ConfuserEx v0.1.0
+ConfuserEx v0.1.1
+ConfuserEx v0.1.2
+ConfuserEx v0.2.0
+ConfuserEx v0.2.1
+ConfuserEx v0.2.2
+ConfuserEx v0.2.3
+ConfuserEx v0.3.0
+ConfuserEx v0.4.0
+ConfuserEx v0.5.0
+AppData\Local
+AppData\Local\Microsoft\Windows\History
+AppData\Local\Microsoft\Windows\Temporary Internet Files
+AppData\Roaming
+AppData\Roaming\Microsoft\Windows\Cookies
+AppData\Roaming\Microsoft\Windows\Network Shortcuts
+AppData\Roaming\Microsoft\Windows\Printer Shortcuts
+AppData\Roaming\Microsoft\Windows\Recent
+AppData\Roaming\Microsoft\Windows\SendTo
+AppData\Roaming\Microsoft\Windows\Start Menu
+AppData\Roaming\Microsoft\Windows\Start Menu\Programs
+AppData\Roaming\Microsoft\Windows\Templates
+Default
+Documents
+Microsoft\Windows\Start Menu
+Microsoft\Windows\Start Menu\Programs
+Microsoft\Windows\Templates
+Music
+Pictures
+Public\Desktop
+Public\Documents
+Public\Favorites
+Public\Music
+Public\Pictures
+Public\Videos
+System
+Videos
+Windows NT\Accessories
+Explorer\Shell Folders
+TCoreThread
+EObserver
+TStream
+TFiler
+TReaderH
+TWriter4
+TComponent
+TFPList
+TList
+TThreadList
+TPersistent
+TCollection
+TStrings
+TStringList
+TOwnerStream
+THandleStream
+TFileStream
+TCustomMemoryStream
+TRegExpr
+ERegExpr
+/AutoIt3ExecuteLine
+/AutoIt3ExecuteScript
+/AutoIt3OutputDebug
+AutoIt3GUI
+AutoIt v3
+AutoIt script files (*.au3 *.a3x)
+AutoIt
+AUTOIT SCRIPT
+AUTOIT NO CMDEXECUTE
+AutoIt3OutputDebug
+AutoIt3ExecuteScript
+AutoIt3ExecuteLine
+#NoAutoIt3Execute
+Software\AutoIt v3\AutoIt
+*.au3;*.a3x
+AutoIt Error
+AutoIt has detected the stack has become corrupt.
+CompiledScript
+AutoIt v3 Script: 3 3 8 1
+AutoIt v3 Script: 3 3 8 0
+AutoIt3
+AUTOITPID
+AUTOITEXE
+AUTOITVERSION
+AUTOITSETOPTION
+AUTOITWINGETTITLE
+AUTOITWINSETTITLE
